@@ -19,6 +19,10 @@ export const metadata: Metadata = {
   title: 'Book Aerocity Escorts | 24/7 5-Star Hotel Concierge | Aerocity Escort Service',
   description:
     'Connect with Aerocity Escort Service for verified VIP escort reservations in Aerocity. Call +91-9996265679 or WhatsApp for 15-20 min outcalls to JW Marriott, Pullman, and Andaz.',
+  keywords: [
+    ...siteConfig.keywords.slice(0, 10),
+    'contact concierge, 24/7 escort booking, whatsapp call girls',
+  ],
   alternates: {
     canonical: `${siteConfig.url}/contact`,
   },

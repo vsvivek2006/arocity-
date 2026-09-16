@@ -19,6 +19,10 @@ export const metadata: Metadata = {
   title: 'Aerocity Escort Service FAQs | Booking & 5-Star Hotel Guide',
   description:
     'Get authoritative answers to client questions regarding VIP call girls, Russian escorts, discretion protocols, hotel outcalls, and rates with Aerocity Escort Service.',
+  keywords: [
+    ...siteConfig.keywords.slice(0, 10),
+    'escort booking faq, rates, cod questions, hotel outcall faq',
+  ],
   alternates: {
     canonical: `${siteConfig.url}/faq`,
     languages: getAlternateLanguages('/faq'),

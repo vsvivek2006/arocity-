@@ -24,6 +24,10 @@ export const metadata: Metadata = {
   title: 'Verified Photo Gallery | VIP Call Girls & Aerocity Escorts',
   description:
     'Browse authenticated, untouched photographs of VIP call girls and luxury escorts in Aerocity New Delhi. Genuine Russian escorts, model call girls, and 5-star hotel escorts.',
+  keywords: [
+    ...siteConfig.keywords.slice(0, 10),
+    'verified escort gallery, real call girl photos, genuine escort profiles',
+  ],
   alternates: {
     canonical: `${siteConfig.url}/gallery`,
     languages: getAlternateLanguages('/gallery'),

@@ -62,15 +62,15 @@ export const metadata: Metadata = {
         url: `${siteConfig.url}/og-image.jpg`,
         width: 1200,
         height: 630,
-        alt: 'ALINA VIP Escort Service in Gurgaon Gurugram',
+        alt: 'Aerocity Escort Service Escort Service in Gurgaon Gurugram',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Escort Service in Gurgaon (Gurugram) | VIP Escorts Service ALINA VIP',
+    title: 'Escort Service in Gurgaon (Gurugram) | VIP Escorts Service Aerocity Escort Service',
     description:
-      'ALINA VIP is the #1 escort service in Gurgaon (Gurugram). Book verified VIP call girls and elite escorts service with 20-30 min 5-star hotel outcall dispatch across DLF, Cyber City, and Golf Course Road.',
+      'Aerocity Escort Service is the #1 escort service in Gurgaon (Gurugram). Book verified VIP call girls and elite escorts service with 20-30 min 5-star hotel outcall dispatch across DLF, Cyber City, and Golf Course Road.',
     images: [`${siteConfig.url}/og-image.jpg`],
   },
   verification: {
