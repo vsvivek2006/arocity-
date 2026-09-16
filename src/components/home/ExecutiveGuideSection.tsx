@@ -1,46 +1,82 @@
-import Link from 'next/link';
+import { Hotel, ShieldCheck, Clock, CheckCircle2 } from 'lucide-react';
+
+const aerocityHotels = [
+  'JW Marriott Hotel New Delhi Aerocity',
+  'Andaz Delhi - a Concept by Hyatt',
+  'Pullman New Delhi Aerocity',
+  'Novotel New Delhi Aerocity',
+  'Roseate House New Delhi',
+  'Aloft New Delhi Aerocity',
+  'Holiday Inn New Delhi International Airport',
+  'Pride Plaza Hotel Aerocity New Delhi',
+  'Ibis New Delhi Aerocity',
+];
 
 export default function ExecutiveGuideSection() {
   return (
-    <section className="py-20 md:py-28 bg-[#FDFBF7]">
-      <div className="container-luxury">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-[#0F172A] mb-6">
-            The Executive Guide to Escort Service in Gurgaon (Gurugram)
+    <section className="py-20 md:py-28 bg-[#050508] relative border-b border-charcoal-800/60">
+      <div className="container-luxury max-w-5xl">
+        <div className="text-center mb-16">
+          <span className="text-gold-400 font-sans text-xs tracking-ultra uppercase mb-3 block">
+            Executive Travel & Outcall Guide
+          </span>
+          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
+            Comprehensive Guide to <span className="text-gradient-gold">Aerocity Escort Service</span>
           </h2>
-          <p className="text-gray-700 text-lg leading-relaxed mb-6">
-            Positioned as India&apos;s leading corporate cyber hub, Gurgaon (officially renamed Gurugram, and often searched as Gurugaon) attracts Fortune 500 executives, venture capitalists, and international travellers demanding premier standards of hospitality. ALINA VIP India provides the top-rated <Link href="/services" className="text-gold-600 hover:underline font-medium">escort service in Gurgaon</Link> and <Link href="/services" className="text-gold-600 hover:underline font-medium">escorts service in Gurgaon</Link>, offering educated, refined <Link href="/services" className="text-gold-600 hover:underline font-medium">escort girls</Link> and verified <Link href="/category/vip-call-girls" className="text-gold-600 hover:underline font-medium">call girls</Link> tailored for five-star hotel suites, dinner parties, and quiet evening intimacy.
+          <p className="text-charcoal-300 text-sm md:text-base leading-relaxed max-w-2xl mx-auto">
+            Essential information on hotel outcall protocols, flight layover bookings, and verified booking standards in Delhi&apos;s Aerocity Hospitality District.
           </p>
+        </div>
 
-          <h3 className="text-2xl font-bold text-[#0F172A] mt-8 mb-4">
-            Verified Escort Service &amp; Absolute Photo Authenticity in Gurugram
-          </h3>
-          <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            Navigating the escort market in Delhi NCR requires caution due to fake classifieds and misleading portfolio pictures. At ALINA VIP India, every model in our <Link href="/services" className="text-gold-600 hover:underline font-medium">escort service in Gurugram</Link> is authenticated through a multi-stage background check and in-person photography verification. When you browse our <Link href="/gallery" className="text-gold-600 hover:underline font-medium">verified photo gallery</Link>, you can be 100% confident that the model arriving at your door mirrors her gallery photos precisely.
-          </p>
-          <p className="text-gray-700 text-lg leading-relaxed mb-6">
-            From charming <Link href="/category/russian-call-girls" className="text-gold-600 hover:underline font-medium">Russian call girls</Link> to cosmopolitan <Link href="/category/air-hostess" className="text-gold-600 hover:underline font-medium">air hostess escorts</Link>, our roster represents verified professionals who understand high-society etiquette, cultural sensitivity, and warm conversational chemistry.
-          </p>
+        <div className="space-y-12 text-charcoal-300 text-sm md:text-base leading-relaxed">
+          <div className="p-8 rounded-2xl bg-charcoal-900/40 border border-charcoal-800">
+            <div className="flex items-center gap-3 mb-4">
+              <Hotel className="text-gold-400 w-6 h-6 flex-shrink-0" />
+              <h3 className="font-serif text-xl font-bold text-white">
+                5-Star Hotel Outcalls in Aerocity Hospitality District
+              </h3>
+            </div>
+            <p className="mb-4">
+              Aerocity is home to Delhi&apos;s most sophisticated 5-star international hotel cluster, neighboring Indira Gandhi International Airport. Our escort agency maintains regular, seamless outcall service across all luxury establishments:
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 my-6">
+              {aerocityHotels.map((hotel) => (
+                <div key={hotel} className="flex items-center gap-2 p-2.5 rounded-lg bg-charcoal-800/40 border border-charcoal-700/40 text-xs text-charcoal-200">
+                  <CheckCircle2 size={14} className="text-gold-400 flex-shrink-0" />
+                  <span>{hotel}</span>
+                </div>
+              ))}
+            </div>
+            <p className="text-xs text-charcoal-400">
+              When booking, simply provide your hotel name and room number. Our companions arrive with understated sophistication, allowing for seamless room entry without awkward lobby questions.
+            </p>
+          </div>
 
-          <h3 className="text-2xl font-bold text-[#0F172A] mt-8 mb-4">
-            Ironclad Discretion with Gurgaon&apos;s #1 Escorts Service
-          </h3>
-          <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            We operate under an unyielding confidentiality charter. Recognizing that our clientele includes notable public figures, industrialists, and senior professionals, we maintain zero client data logs, practice secure ephemeral communication, and dispatch models in unmarked executive vehicles.
-          </p>
-          <p className="text-gray-700 text-lg leading-relaxed mb-6">
-            Whether meeting at The Oberoi, The Leela Ambience, Trident, Grand Hyatt, or upscale condominiums along <Link href="/locations/golf-course-road" className="text-gold-600 hover:underline font-medium">Golf Course Road</Link>, complete anonymity and professional privacy are guaranteed. Learn more in our <Link href="/faq" className="text-gold-600 hover:underline font-medium">escort service FAQ</Link>.
-          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="p-8 rounded-2xl bg-charcoal-900/40 border border-charcoal-800">
+              <div className="flex items-center gap-3 mb-4">
+                <Clock className="text-gold-400 w-6 h-6 flex-shrink-0" />
+                <h3 className="font-serif text-lg font-bold text-white">
+                  Layover & Transit Outcall Coordination
+                </h3>
+              </div>
+              <p className="text-xs md:text-sm text-charcoal-300 leading-relaxed">
+                Whether you have a 4-hour international layover at Terminal 3 or an overnight stay before an early morning flight, our rapid 15-20 min dispatch ensures you make the most of your private downtime.
+              </p>
+            </div>
 
-          <h3 className="text-2xl font-bold text-[#0F172A] mt-8 mb-4">
-            Lightning 20-30 Minute Outcall Dispatch Across Gurgaon &amp; Gurugram
-          </h3>
-          <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            Your time is invaluable. Our strategically located escorts network across <Link href="/locations/cyber-city" className="text-gold-600 hover:underline font-medium">Cyber City</Link>, DLF Phases 1 through 5, Sohna Road, Golf Course Extension, and Aerocity guarantees swift 20 to 30-minute outcall arrival across all sectors of Gurgaon and Gurugram.
-          </p>
-          <p className="text-gray-700 text-lg leading-relaxed">
-            No tedious upfront deposits, no deceptive transaction fees—only transparent cash on delivery and verified elite call girls with ALINA VIP India.
-          </p>
+            <div className="p-8 rounded-2xl bg-charcoal-900/40 border border-charcoal-800">
+              <div className="flex items-center gap-3 mb-4">
+                <ShieldCheck className="text-gold-400 w-6 h-6 flex-shrink-0" />
+                <h3 className="font-serif text-lg font-bold text-white">
+                  Zero Upfront Fee & COD Policy
+                </h3>
+              </div>
+              <p className="text-xs md:text-sm text-charcoal-300 leading-relaxed">
+                We strictly reject deceptive upfront deposit scams common across unregistered Delhi escorts. You verify your selected companion in person before completing the companionship fee.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

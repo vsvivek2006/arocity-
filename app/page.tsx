@@ -15,7 +15,7 @@ import ExecutiveGuideSection from '@/components/home/ExecutiveGuideSection';
 import HomeContactSection from '@/components/home/HomeContactSection';
 
 export const metadata: Metadata = {
-  title: 'Escort Service in Gurgaon (Gurugram) | VIP Escorts Service ALINA VIP',
+  title: 'Aerocity Escort Service | VIP Call Girls & 5-Star Hotel Escorts New Delhi',
   description:
     'ALINA VIP provides premier escort service in Gurgaon (Gurugram). Verified VIP call girls, top escorts service, and discreet 20-30 min 5-star hotel outcalls across DLF, Cyber City, and Golf Course Road.',
   keywords: siteConfig.keywords,
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     languages: getAlternateLanguages(''),
   },
   openGraph: {
-    title: 'Escort Service in Gurgaon (Gurugram) | VIP Escorts Service ALINA VIP',
+    title: 'Aerocity Escort Service | VIP Call Girls & 5-Star Hotel Escorts New Delhi',
     description:
       'ALINA VIP provides premier escort service in Gurgaon (Gurugram). Verified VIP call girls, top escorts service, and discreet 20-30 min 5-star hotel outcalls across DLF, Cyber City, and Golf Course Road.',
     url: siteConfig.url,

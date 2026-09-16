@@ -1,61 +1,74 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
-import { siteConfig } from '@/data/siteConfig';
-
-const stats = [
-  { value: '500+', label: 'Verified Profiles' },
-  { value: '108', label: 'Locations in Gurgaon & NCR' },
-  { value: '11', label: 'Curated Categories' },
-  { value: '24/7', label: 'Service Available' },
-];
 
 export default function AboutSection() {
   return (
-    <section className="py-20 md:py-28 bg-white">
-      <div className="container-luxury">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-          <div>
-            <p className="section-subtitle text-gold-600">Discover ALINA VIP India</p>
-            <h2 className="section-title mb-6 text-[#0F172A]">
-              The Gold Standard of{' '}
-              <span className="text-gradient-gold font-normal">
-                Escort Service in Gurgaon
-              </span>
-            </h2>
-            <div className="gold-divider mb-8" />
-            <div className="space-y-4 text-gray-700 leading-relaxed text-base">
-              <p><strong className="text-[#0F172A]">ALINA VIP India</strong> stands as the definitive luxury <Link href="/services" className="text-gold-600 hover:underline font-medium">escort service in Gurgaon</Link> (Gurugram), dedicated to coordinating exceptional <Link href="/category/vip-call-girls" className="text-gold-600 hover:underline font-medium">call girls</Link> and verified <Link href="/services" className="text-gold-600 hover:underline font-medium">escorts service</Link> for high-profile business dinners, executive celebrations, jet-setting travel, and confidential hotel suite appointments.</p>
-              <p>Rooted in deep familiarity with Gurgaon&apos;s luxury enclaves—from <Link href="/locations/cyber-city" className="text-gold-600 hover:underline font-medium">DLF Cyber City</Link> to the <Link href="/locations/golf-course-road" className="text-gold-600 hover:underline font-medium">Golf Course Road</Link> corridor—our concierge team enforces strict operational secrecy, prompt dispatch times, and transparent zero-advance payment policies across all sectors of Gurugram.</p>
-              <p>Each model in our roster is personally verified to ensure unmatched poise, engaging intellectual conversation, and impeccable presentation—delivering a 100% photo-accurate experience with top <Link href="/category/russian-call-girls" className="text-gold-600 hover:underline font-medium">Russian call girls</Link> and elite models every single time.</p>
-            </div>
-
-            <div className="flex flex-wrap items-center gap-4 mt-8">
-              <Link href="/about" className="btn-outline-gold">
-                Learn More <ArrowRight size={16} />
-              </Link>
-              <a
-                href={siteConfig.url}
-                className="text-gold-600 hover:text-gold-700 font-semibold flex items-center gap-2 text-sm"
-              >
-                Visit {siteConfig.domain} <ArrowRight size={16} />
-              </a>
+    <section className="py-20 md:py-28 bg-[#08070D] relative overflow-hidden border-b border-charcoal-800/60">
+      <div className="container-luxury relative z-10">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+          <div className="lg:col-span-5 relative">
+            <div className="relative mx-auto max-w-md lg:max-w-none">
+              <div className="relative aspect-[3/4] rounded-2xl overflow-hidden border border-gold-500/20 shadow-2xl shadow-gold-500/5">
+                <Image
+                  src="/images/categories/vip-escorts.webp"
+                  alt="Elite Aerocity Escort Service VIP Model"
+                  title="Elite Aerocity Escort Service VIP Model - 5-Star Hotel Companionship"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 40vw"
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+              </div>
+              <div className="absolute -bottom-6 -right-6 bg-charcoal-900 border border-gold-500/30 p-5 rounded-2xl shadow-xl backdrop-blur-md hidden sm:block">
+                <p className="text-gold-400 font-serif text-3xl font-bold">15-20m</p>
+                <p className="text-charcoal-300 text-xs tracking-wider uppercase">Aerocity Hotel Dispatch</p>
+              </div>
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
-            {stats.map((stat, i) => (
-              <div
-                key={i}
-                className="bg-gray-50 p-8 text-center rounded-2xl border border-gray-100 hover:border-gold-300 hover:shadow-lg transition-all"
-              >
-                <p className="font-serif text-4xl md:text-5xl text-gold-600 font-light mb-2">
-                  {stat.value}
-                </p>
-                <p className="text-xs text-gray-500 tracking-wider uppercase font-medium">
-                  {stat.label}
-                </p>
+          <div className="lg:col-span-7">
+            <span className="text-gold-400 font-sans text-xs tracking-ultra uppercase mb-3 block">
+              About Aerocity Escort Service
+            </span>
+            <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
+              Premier Luxury Companionship in <span className="text-gradient-gold">Delhi Aerocity</span>
+            </h2>
+            <div className="space-y-4 text-charcoal-300 text-sm md:text-base leading-relaxed mb-8">
+              <p>
+                Strategically located in the high-profile Hospitality District of Indira Gandhi International (IGI) Airport, <strong>Aerocity Escort Service</strong> offers an exclusive sanctuary of elegance, discretion, and world-class companionship for discerning business executives, luxury hotel guests, and international transit passengers.
+              </p>
+              <p>
+                Whether you are staying at <em>JW Marriott, Andaz Delhi, Pullman, Roseate House, Novotel</em>, or on an extended layover at IGI Airport, our curated roster of sophisticated <Link href="/category/russian-call-girls" className="text-gold-400 hover:underline">Russian call girls</Link>, elite fashion models, and educated <Link href="/category/vip-call-girls" className="text-gold-400 hover:underline">VIP escorts</Link> guarantees an unforgettable, private experience.
+              </p>
+              <p>
+                We adhere to an uncompromising zero-compromise code of conduct: 100% verified real photographs, complete client confidentiality, and transparent Cash on Delivery payment directly in the security of your hotel suite.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-3 gap-4 p-4 rounded-2xl bg-charcoal-900/60 border border-charcoal-800/80 mb-8 text-center">
+              <div>
+                <p className="font-serif text-2xl md:text-3xl font-bold text-gold-400">100%</p>
+                <p className="text-charcoal-400 text-xs">Verified Photos</p>
               </div>
-            ))}
+              <div className="border-x border-charcoal-800">
+                <p className="font-serif text-2xl md:text-3xl font-bold text-gold-400">15-20m</p>
+                <p className="text-charcoal-400 text-xs">Airport Dispatch</p>
+              </div>
+              <div>
+                <p className="font-serif text-2xl md:text-3xl font-bold text-gold-400">24/7</p>
+                <p className="text-charcoal-400 text-xs">VIP Concierge</p>
+              </div>
+            </div>
+
+            <div className="flex flex-wrap gap-4">
+              <Link href="/about" className="btn-gold">
+                Learn More About Us <ArrowRight size={16} />
+              </Link>
+              <Link href="/services" className="btn-outline">
+                View All Categories
+              </Link>
+            </div>
           </div>
         </div>
       </div>

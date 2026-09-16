@@ -1,25 +1,28 @@
 export const siteConfig = {
-  name: 'ALINA VIP',
+  name: 'Aerocity Escort Service',
   phone: '+91-9996265679',
   phoneDisplay: '+91 99962 65679',
   whatsapp: '919996265679',
   email: 'contact@aerocityescortservice.site',
-  address: 'Aerocity, Indira Gandhi International Airport, New Delhi 110037 & DLF Phase 3, Gurgaon',
+  address: 'Asset Area 4, Hospitality District, IGI Airport, Aerocity, New Delhi 110037, India',
   url: 'https://aerocityescortservice.site',
   domain: 'aerocityescortservice.site',
-  tagline: 'Escort Service in Aerocity & Gurgaon | VIP Escorts Service',
-  description: 'Premier escort service in Aerocity New Delhi and Gurgaon. Providing 100% verified VIP escorts, Russian call girls, and discreet 20-30 min 5-star hotel outcalls across Aerocity hotels and Gurgaon.',
+  tagline: 'Escort Service in Aerocity New Delhi | 5-Star Hotel VIP Call Girls',
+  description: 'Premier escort service in Aerocity New Delhi. Providing 100% verified VIP call girls, Russian models, and high-profile escorts with discreet 15-20 min hotel outcalls to JW Marriott, Pullman, Andaz, Novotel, and Roseate House.',
   keywords: [
     'escort service in aerocity',
     'aerocity escort service',
     'call girls in aerocity',
     'aerocity call girls',
-    'escort service in gurgaon',
-    'escorts service in gurgaon',
-    'escort service in gurugram',
-    'vip escort service in aerocity',
-    'russian escorts in aerocity',
+    'aerocity escorts',
+    'escorts in aerocity',
+    'aerocity hotel escorts',
     '5 star hotel escorts aerocity',
+    'russian escorts in aerocity',
+    'delhi airport escorts',
+    'call girls near aerocity',
+    'vip escorts aerocity new delhi',
+    'escort service in gurgaon',
   ],
   socialLinks: [
     { name: 'Instagram', url: 'https://instagram.com/alinavip', icon: 'Instagram' },
@@ -37,19 +40,27 @@ export function getAlternateLanguages(path: string = '') {
 
 export const generalFaqs = [
   {
-    question: 'What is ALINA VIP Aerocity?',
-    answer: 'ALINA VIP is a premier luxury escort service catering to elite business and leisure travelers in Aerocity New Delhi and Gurgaon. We provide verified companions for 5-star luxury hotels with absolute confidentiality.',
+    question: 'What is Aerocity Escort Service?',
+    answer: 'Aerocity Escort Service by ALINA VIP is a premier luxury companionship agency based in the Hospitality District of Aerocity, New Delhi. We cater to corporate executives, VIP transit travelers, and luxury hotel guests with verified companions.',
   },
   {
-    question: 'How fast can an escort arrive at Aerocity luxury hotels?',
-    answer: 'Our average outcall dispatch time to premier Aerocity hotels (JW Marriott, Andaz, Pullman, Novotel, Roseate House, Aloft) is 20-30 minutes.',
+    question: 'How fast can an escort arrive at Aerocity 5-star hotels?',
+    answer: 'Our average arrival time is 15-20 minutes across all premier Aerocity hotels including JW Marriott, Andaz Delhi, Pullman New Delhi Aerocity, Novotel, Roseate House, Aloft, Holiday Inn, and Pride Plaza.',
   },
   {
-    question: 'Are all companion profiles authentic and verified?',
-    answer: 'Yes, every profile undergoes complete in-person verification with 100% authentic, untouched photographs. What you see is guaranteed to be who arrives.',
+    question: 'Can I book an escort during a flight layover at Delhi Airport (IGI)?',
+    answer: 'Yes! Aerocity is directly connected to IGI Airport Terminals 1, 2, and 3 via the Airport Express Metro and shuttle services. We specialize in swift, discreet companionship for travelers on international and domestic layovers.',
   },
   {
-    question: 'How do I book an escort service in Aerocity?',
-    answer: 'Booking is simple and discreet. Message our 24/7 concierge via WhatsApp or call +91-9996265679 with your preferred hotel and timing.',
+    question: 'Do you offer Cash on Delivery (COD) in Aerocity?',
+    answer: 'Yes. We operate with 100% transparency: you can meet and verify your companion in the comfort and privacy of your hotel room before settling the companionship fee in cash.',
+  },
+  {
+    question: 'Are all companion photos 100% genuine and verified?',
+    answer: 'Every profile published on our portal undergoes thorough in-person photo and background verification. We guarantee zero-catfish dispatch — the companion who arrives matches the profile you selected.',
+  },
+  {
+    question: 'How is client privacy maintained for hotel outcalls?',
+    answer: 'Our companions dress in refined, elegant executive attire that blends seamlessly into upscale hotel lobbies and luxury suites. All WhatsApp booking chats and numbers are purged immediately after the appointment.',
   },
 ];

@@ -24,8 +24,8 @@ const jost = Jost({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: 'Escort Service in Gurgaon (Gurugram) | VIP Escorts Service ALINA VIP',
-    template: '%s',
+    default: 'Aerocity Escort Service | VIP Call Girls & 5-Star Hotel Escorts New Delhi',
+    template: '%s | Aerocity Escort Service',
   },
   description:
     'ALINA VIP is the #1 escort service in Gurgaon (Gurugram). Book verified VIP call girls and elite escorts service with 20-30 min 5-star hotel outcall dispatch across DLF, Cyber City, and Golf Course Road.',

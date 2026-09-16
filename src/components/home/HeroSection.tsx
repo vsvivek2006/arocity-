@@ -3,10 +3,10 @@ import { Phone, ArrowRight, ShieldCheck, Lock, Clock, Star } from 'lucide-react'
 import { siteConfig } from '@/data/siteConfig';
 
 const trustPillars = [
-  { icon: ShieldCheck, title: 'Certified Real Models', desc: 'Strict zero-catfish policy' },
-  { icon: Lock, title: 'Absolute Secrecy', desc: 'Zero client footprint' },
-  { icon: Clock, title: '20-30 Min Arrival', desc: 'Direct hotel & home dispatch' },
-  { icon: Star, title: 'Cash On Delivery', desc: 'Verify call girl first' },
+  { icon: ShieldCheck, title: 'Verified Aerocity Models', desc: 'Strict zero-catfish policy' },
+  { icon: Lock, title: 'Absolute Secrecy', desc: 'Zero client digital footprint' },
+  { icon: Clock, title: '15-20 Min Arrival', desc: 'Direct Aerocity hotel dispatch' },
+  { icon: Star, title: 'Cash On Delivery', desc: 'Verify companion first' },
 ];
 
 export default function HeroSection() {
@@ -23,18 +23,18 @@ export default function HeroSection() {
 
         <div className="container-luxury relative z-10 text-center pt-24 pb-16">
           <p className="section-subtitle text-gold-400 font-sans text-xs md:text-sm tracking-ultra uppercase mb-4 animate-fade-down">
-            #1 Premier Escort Agency • Gurgaon
+            #1 Premier Escort Agency • Aerocity New Delhi
           </p>
 
           <h1 className="font-serif text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight text-white mb-6 animate-fade-up leading-tight">
-            Escort Service in <span className="text-gradient-gold">Gurgaon</span>
+            Escort Service in <span className="text-gradient-gold">Aerocity</span>
           </h1>
 
           <p
             className="text-charcoal-300 text-base md:text-lg max-w-xl mx-auto mb-8 leading-relaxed animate-fade-up"
             style={{ animationDelay: '0.2s' }}
           >
-            Gurgaon&apos;s leading verified <Link href="/services" className="text-gold-400 hover:underline font-medium">escorts service in Gurgaon</Link>. Elite <Link href="/category/vip-call-girls" className="text-gold-400 hover:underline font-medium">VIP call girls</Link> with genuine profiles and 20–30 min discreet outcalls across all sectors.
+            New Delhi&apos;s leading verified <Link href="/services" className="text-gold-400 hover:underline font-medium">aerocity escort service</Link>. Elite <Link href="/category/vip-call-girls" className="text-gold-400 hover:underline font-medium">VIP call girls</Link>, Russian models, and celebrity companions with 15–20 min discreet hotel outcalls across JW Marriott, Pullman, Andaz, and Roseate House.
           </p>
 
           <div
@@ -45,53 +45,64 @@ export default function HeroSection() {
               href="/services"
               className="btn-gold shadow-lg shadow-gold-500/20"
             >
-              Explore Profiles <ArrowRight size={16} />
+              Explore Aerocity Profiles <ArrowRight size={16} />
             </Link>
-            <a href={`tel:${siteConfig.phone}`} className="btn-outline-gold">
-              <Phone size={16} /> {siteConfig.phoneDisplay}
+            <a
+              href={`tel:${siteConfig.phone}`}
+              className="btn-outline"
+            >
+              <Phone size={16} className="text-gold-400" />
+              <span>{siteConfig.phoneDisplay}</span>
             </a>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto pt-8 border-t border-charcoal-700/60">
-            {trustPillars.map((item, i) => {
-              const Icon = item.icon;
-              return (
-                <div key={i} className="flex items-center gap-2.5 text-left p-2">
-                  <Icon size={20} className="text-gold-400 flex-shrink-0" />
-                  <div>
-                    <p className="text-xs text-white font-medium">{item.title}</p>
-                    <p className="text-[10px] text-charcoal-400">{item.desc}</p>
-                  </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto pt-8 border-t border-charcoal-800/80">
+            {trustPillars.map((pillar) => (
+              <div
+                key={pillar.title}
+                className="text-left p-3 rounded-xl bg-charcoal-900/40 border border-charcoal-800/50 backdrop-blur-sm"
+              >
+                <div className="flex items-center gap-2 mb-1">
+                  <pillar.icon size={16} className="text-gold-400 flex-shrink-0" />
+                  <span className="font-serif text-xs font-semibold text-charcoal-100">
+                    {pillar.title}
+                  </span>
                 </div>
-              );
-            })}
+                <p className="text-[10px] text-charcoal-400 leading-snug">
+                  {pillar.desc}
+                </p>
+              </div>
+            ))}
           </div>
-        </div>
-
-        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 animate-float">
-          <div className="w-px h-12 bg-gradient-to-b from-transparent via-gold-500 to-transparent" />
         </div>
       </section>
 
-      <section className="py-14 bg-charcoal-800 border-y border-charcoal-700">
-        <div className="container-luxury">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-            <div className="text-center md:text-left">
-              <p className="text-gold-500 font-sans text-xs tracking-ultra uppercase mb-2 font-semibold">
-                Prompt 20-30 Minute Outcall Across Gurgaon &amp; NCR
+      {/* Rapid Booking Banner tailored for Aerocity Airport Hotels */}
+      <section className="bg-gradient-to-r from-gold-950/60 via-charcoal-900 to-gold-950/60 border-y border-gold-500/20 py-5">
+        <div className="container-luxury flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-full bg-gold-500/10 flex items-center justify-center border border-gold-500/30 flex-shrink-0">
+              <Clock className="w-5 h-5 text-gold-400" />
+            </div>
+            <div>
+              <p className="text-white font-semibold text-sm">
+                Aerocity 5-Star Hotel Instant Dispatch (15–20 Mins)
               </p>
-              <h2 className="font-serif text-2xl md:text-3xl text-white font-light">
-                Bespoke call girl reservations For Distinguished Hotel Suites &amp; Residences
-              </h2>
+              <p className="text-charcoal-400 text-xs">
+                JW Marriott • Andaz • Pullman • Novotel • Roseate House • Aloft • Holiday Inn
+              </p>
             </div>
-            <div className="flex gap-3">
-              <a
-                href={`tel:${siteConfig.phone}`}
-                className="btn-gold whitespace-nowrap"
-              >
-                <Phone size={16} /> Call Now: {siteConfig.phoneDisplay}
-              </a>
-            </div>
+          </div>
+          <div className="flex items-center gap-3">
+            <a
+              href={`https://wa.me/${siteConfig.whatsapp}?text=${encodeURIComponent('Hi Aerocity Escorts, I need immediate hotel dispatch to Aerocity.')}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-emerald-600 hover:bg-emerald-700 text-white px-5 py-2.5 rounded-full text-xs font-semibold flex items-center gap-2 transition-all shadow-md hover:shadow-lg"
+            >
+              <span>Quick WhatsApp Dispatch</span>
+              <ArrowRight size={14} />
+            </a>
           </div>
         </div>
       </section>
