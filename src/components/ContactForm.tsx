@@ -42,7 +42,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="lg:col-span-7 bg-[#faf6f2] p-8 md:p-10 rounded-3xl border border-gold-200/80 shadow-md">
+    <div className="lg:col-span-7 bg-[#FDFBF7] p-8 md:p-10 rounded-3xl border border-gold-200/80 shadow-md">
       <div className="mb-8">
         <span className="text-xs font-bold text-gold-600 uppercase tracking-wider block mb-1">
           Online Reservation

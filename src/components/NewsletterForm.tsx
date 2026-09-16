@@ -32,7 +32,7 @@ export default function NewsletterForm() {
   };
 
   return (
-    <div className="max-w-3xl mx-auto text-center bg-[#faf6f2] p-8 md:p-12 rounded-3xl border border-gold-200/60 shadow-sm">
+    <div className="max-w-3xl mx-auto text-center bg-[#FDFBF7] p-8 md:p-12 rounded-3xl border border-gold-200/60 shadow-sm">
       <div className="w-12 h-12 bg-gold-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
         <Sparkles className="w-6 h-6 text-gold-600" />
       </div>

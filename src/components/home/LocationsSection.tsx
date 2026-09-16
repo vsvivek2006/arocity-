@@ -60,7 +60,7 @@ export default function LocationsSection() {
         <div className="text-center">
           <Link
             href="/locations"
-            className="btn-outline-gold inline-flex items-center gap-2"
+            className="btn-outline-gold-gold inline-flex items-center gap-2"
           >
             Explore All 108 Locations &amp; Sectors <ArrowRight size={16} />
           </Link>

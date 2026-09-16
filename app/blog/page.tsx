@@ -90,7 +90,7 @@ export default function BlogPage() {
       </section>
 
       {/* Featured Article Section */}
-      <section className="py-16 bg-gradient-to-br from-[#faf6f2] to-white">
+      <section className="py-16 bg-gradient-to-br from-[#FDFBF7] to-white">
         <div className="container-luxury">
           <div className="bg-gradient-to-r from-gold-50 to-amber-50 rounded-3xl p-8 md:p-12 border-2 border-gold-200 shadow-md">
             <div className="grid md:grid-cols-2 gap-8 items-center">

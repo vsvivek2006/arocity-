@@ -211,7 +211,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
       {/* Related Articles Strip */}
       {displayRelated.length > 0 && (
-        <section className="py-16 bg-[#faf6f2] border-t border-gold-200/60">
+        <section className="py-16 bg-[#FDFBF7] border-t border-gold-200/60">
           <div className="container-luxury max-w-6xl">
             <div className="text-center mb-12">
               <span className="text-xs font-bold text-gold-600 uppercase tracking-wider block mb-2">

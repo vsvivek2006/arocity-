@@ -15,6 +15,7 @@ export default {
           700: '#7D6721',
           800: '#524316',
           900: '#27200B',
+          950: '#140F04',
         },
         charcoal: {
           50: '#F6F6F7',
@@ -27,11 +28,11 @@ export default {
           700: '#25252A',
           800: '#161618',
           900: '#0A0A0B',
+          950: '#050507',
         },
       },
       fontFamily: {
         serif: ['var(--font-playfair)', '"Playfair Display"', 'Georgia', 'serif'],
-        cormorant: ['var(--font-cormorant)', '"Cormorant Garamond"', 'Georgia', 'serif'],
         sans: ['var(--font-jost)', '"Jost"', 'system-ui', 'sans-serif'],
       },
       letterSpacing: {

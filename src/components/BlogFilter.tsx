@@ -90,7 +90,7 @@ export default function BlogFilter({ posts, categories }: BlogFilterProps) {
             value={searchQuery}
             onChange={(e) => handleSearchChange(e.target.value)}
             placeholder="Search articles by keyword, topic, or tag..."
-            className="w-full bg-[#faf6f2] border border-gold-200/80 rounded-full pl-12 pr-12 py-3.5 text-sm text-gray-800 placeholder-gray-400 focus:border-gold-500 focus:bg-white focus:outline-none transition-all shadow-sm"
+            className="w-full bg-[#FDFBF7] border border-gold-200/80 rounded-full pl-12 pr-12 py-3.5 text-sm text-gray-800 placeholder-gray-400 focus:border-gold-500 focus:bg-white focus:outline-none transition-all shadow-sm"
           />
           {searchQuery && (
             <button
@@ -231,7 +231,7 @@ export default function BlogFilter({ posts, categories }: BlogFilterProps) {
       </div>
 
       {filteredPosts.length === 0 && (
-        <div className="text-center py-16 bg-[#faf6f2] rounded-3xl border border-gold-200/60 p-8 max-w-2xl mx-auto">
+        <div className="text-center py-16 bg-[#FDFBF7] rounded-3xl border border-gold-200/60 p-8 max-w-2xl mx-auto">
           <p className="text-gray-700 text-lg font-semibold mb-2">No articles match your criteria</p>
           <p className="text-gray-500 text-sm mb-6">
             We couldn&apos;t find any articles matching

@@ -9,7 +9,7 @@ export default function TestimonialsSection({ theme = 'dark' }: TestimonialsSect
   const isLight = theme === 'light';
 
   return (
-    <section className={`py-20 md:py-28 ${isLight ? 'bg-[#faf6f2]' : ''}`}>
+    <section className={`py-20 md:py-28 ${isLight ? 'bg-[#FDFBF7]' : ''}`}>
       <div className="container-luxury">
         <div className="text-center mb-14">
           <p className={`section-subtitle ${isLight ? 'text-gold-600' : ''}`}>Client Testimonials</p>

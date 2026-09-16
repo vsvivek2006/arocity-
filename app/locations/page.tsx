@@ -132,7 +132,7 @@ export default function LocationsPage() {
                 <a href={`tel:${siteConfig.phone}`} className="btn-gold flex-1 text-center justify-center">
                   <Phone size={16} /> Call: {siteConfig.phoneDisplay}
                 </a>
-                <Link href="/contact" className="btn-outline-gold flex-1 text-center justify-center">
+                <Link href="/contact" className="btn-outline-gold-gold flex-1 text-center justify-center">
                   Reserve Online
                 </Link>
               </div>

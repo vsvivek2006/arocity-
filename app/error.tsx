@@ -52,7 +52,7 @@ export default function GlobalError({ error, reset }: ErrorProps) {
 
           <Link
             href="/"
-            className="w-full sm:w-auto btn-outline-gold text-xs rounded-full py-3 px-6 flex items-center justify-center gap-2"
+            className="w-full sm:w-auto btn-outline-gold-gold text-xs rounded-full py-3 px-6 flex items-center justify-center gap-2"
           >
             <Home className="w-3.5 h-3.5" />
             <span>Return Home</span>

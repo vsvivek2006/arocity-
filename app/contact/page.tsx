@@ -79,7 +79,7 @@ export default function ContactPage() {
               </div>
 
               {/* Phone Channel Card */}
-              <div className="p-6 bg-[#faf6f2] rounded-2xl border border-gold-200/60 shadow-sm hover:shadow-md transition-shadow">
+              <div className="p-6 bg-[#FDFBF7] rounded-2xl border border-gold-200/60 shadow-sm hover:shadow-md transition-shadow">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-xl bg-gold-500/10 flex items-center justify-center flex-shrink-0 mt-1">
                     <Phone className="w-6 h-6 text-gold-600" />
@@ -102,7 +102,7 @@ export default function ContactPage() {
               </div>
 
               {/* WhatsApp Channel Card */}
-              <div className="p-6 bg-[#faf6f2] rounded-2xl border border-gold-200/60 shadow-sm hover:shadow-md transition-shadow">
+              <div className="p-6 bg-[#FDFBF7] rounded-2xl border border-gold-200/60 shadow-sm hover:shadow-md transition-shadow">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-xl bg-green-500/10 flex items-center justify-center flex-shrink-0 mt-1">
                     <MessageCircle className="w-6 h-6 text-green-600" />
@@ -127,7 +127,7 @@ export default function ContactPage() {
               </div>
 
               {/* Location Card */}
-              <div className="p-6 bg-[#faf6f2] rounded-2xl border border-gold-200/60 shadow-sm hover:shadow-md transition-shadow">
+              <div className="p-6 bg-[#FDFBF7] rounded-2xl border border-gold-200/60 shadow-sm hover:shadow-md transition-shadow">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-xl bg-gold-500/10 flex items-center justify-center flex-shrink-0 mt-1">
                     <MapPin className="w-6 h-6 text-gold-600" />
@@ -147,7 +147,7 @@ export default function ContactPage() {
               </div>
 
               {/* Operating Hours Card */}
-              <div className="p-6 bg-[#faf6f2] rounded-2xl border border-gold-200/60 shadow-sm hover:shadow-md transition-shadow">
+              <div className="p-6 bg-[#FDFBF7] rounded-2xl border border-gold-200/60 shadow-sm hover:shadow-md transition-shadow">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-xl bg-gold-500/10 flex items-center justify-center flex-shrink-0 mt-1">
                     <Clock className="w-6 h-6 text-gold-600" />
@@ -195,7 +195,7 @@ export default function ContactPage() {
       </section>
 
       {/* Hotel Partners & Coverage Quick Reference */}
-      <section className="py-12 bg-[#faf6f2] border-t border-b border-gold-200/40">
+      <section className="py-12 bg-[#FDFBF7] border-t border-b border-gold-200/40">
         <div className="container-luxury">
           <div className="text-center mb-8">
             <h3 className="text-xl md:text-2xl font-bold text-[#1a1a2e] font-serif">
@@ -266,7 +266,7 @@ export default function ContactPage() {
       {/* SEO Editorial Guide: How to Book */}
       <section className="py-16 md:py-20 bg-white text-gray-800">
         <div className="container-luxury max-w-4xl">
-          <div className="prose-luxury bg-[#faf6f2] p-8 md:p-12 rounded-2xl border border-gold-200/60 shadow-sm">
+          <div className="prose-luxury bg-[#FDFBF7] p-8 md:p-12 rounded-2xl border border-gold-200/60 shadow-sm">
             <h2 className="text-3xl font-bold text-[#1a1a2e] mb-6 font-serif">
               How to Book Escort Service in Aerocity with Aerocity Escort Service
             </h2>

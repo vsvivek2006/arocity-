@@ -23,7 +23,7 @@ function LegalPage({ title, description: _description, slug: _slug, content }: L
             <div className="gold-divider mx-auto" />
           </div>
 
-          <div className="prose-luxury bg-[#faf6f2] p-8 md:p-12 rounded-3xl border border-gold-200/60 shadow-sm space-y-8">
+          <div className="prose-luxury bg-[#FDFBF7] p-8 md:p-12 rounded-3xl border border-gold-200/60 shadow-sm space-y-8">
             {content.map((section, i) => (
               <div key={i}>
                 <h2 className="text-2xl font-bold text-[#1a1a2e] font-serif mb-3">{section.heading}</h2>

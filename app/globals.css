@@ -29,11 +29,12 @@
   }
 
   .btn-gold {
-    @apply inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-gold-500 text-charcoal-900 font-sans font-medium tracking-wider uppercase text-xs transition-all duration-300 hover:bg-gold-400 hover:shadow-lg hover:shadow-gold-500/30 hover:-translate-y-0.5;
+    @apply inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-gradient-to-r from-amber-400 via-yellow-500 to-amber-500 text-charcoal-900 font-sans font-bold tracking-wider uppercase text-xs transition-all duration-300 hover:from-yellow-300 hover:to-amber-400 hover:shadow-xl hover:shadow-gold-500/40 hover:-translate-y-0.5 shadow-lg shadow-gold-500/25;
   }
 
+  .btn-outline,
   .btn-outline-gold {
-    @apply inline-flex items-center justify-center gap-2 px-8 py-3.5 border border-gold-500 text-gold-500 font-sans font-medium tracking-wider uppercase text-xs transition-all duration-300 hover:bg-gold-500 hover:text-charcoal-900 hover:-translate-y-0.5;
+    @apply inline-flex items-center justify-center gap-2 px-8 py-3.5 border-2 border-gold-500 text-gold-400 font-sans font-semibold tracking-wider uppercase text-xs transition-all duration-300 hover:bg-gold-500 hover:text-charcoal-900 hover:shadow-lg hover:shadow-gold-500/30 hover:-translate-y-0.5;
   }
 
   .section-title {
@@ -45,11 +46,12 @@
   }
 
   .gold-divider {
-    @apply w-16 h-px bg-gradient-to-r from-transparent via-gold-500 to-transparent mx-auto;
+    @apply w-20 h-0.5 bg-gradient-to-r from-transparent via-gold-500 to-transparent mx-auto my-6;
+    box-shadow: 0 0 15px rgba(245, 197, 24, 0.6);
   }
 
   .luxury-card {
-    @apply bg-charcoal-800 border border-charcoal-600 transition-all duration-500 hover:border-gold-500/50;
+    @apply bg-charcoal-800 border border-charcoal-600 transition-all duration-500 hover:border-gold-500/50 hover:shadow-[0_0_25px_rgba(255,179,0,0.15)];
   }
 
   .nav-link {
@@ -72,7 +74,7 @@
 
 @layer utilities {
   .text-gradient-gold {
-    background: linear-gradient(135deg, #D4AF37 0%, #EFDF9F 50%, #D4AF37 100%);
+    background: linear-gradient(135deg, #FFF6B7 0%, #F5C518 35%, #D4AF37 70%, #AA7C11 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -83,7 +85,7 @@
   }
 
   .bg-gold-gradient {
-    background: linear-gradient(135deg, #D4AF37 0%, #EFDF9F 50%, #D4AF37 100%);
+    background: linear-gradient(135deg, #FFF6B7 0%, #F5C518 35%, #D4AF37 70%, #AA7C11 100%);
   }
 
   .glass {

@@ -1,4 +1,5 @@
-import { Hotel, ShieldCheck, Clock, CheckCircle2 } from 'lucide-react';
+import Link from 'next/link';
+import { ShieldCheck, Clock, Hotel, CheckCircle2 } from 'lucide-react';
 
 const aerocityHotels = [
   'JW Marriott Hotel New Delhi Aerocity',
@@ -8,74 +9,65 @@ const aerocityHotels = [
   'Roseate House New Delhi',
   'Aloft New Delhi Aerocity',
   'Holiday Inn New Delhi International Airport',
-  'Pride Plaza Hotel Aerocity New Delhi',
+  'Pride Plaza Hotel Aerocity',
   'Ibis New Delhi Aerocity',
 ];
 
 export default function ExecutiveGuideSection() {
   return (
-    <section className="py-20 md:py-28 bg-[#050508] relative border-b border-charcoal-800/60">
-      <div className="container-luxury max-w-5xl">
-        <div className="text-center mb-16">
-          <span className="text-gold-400 font-sans text-xs tracking-ultra uppercase mb-3 block">
-            Executive Travel & Outcall Guide
-          </span>
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
-            Comprehensive Guide to <span className="text-gradient-gold">Aerocity Escort Service</span>
+    <section className="py-20 md:py-28 bg-[#FDFBF7]">
+      <div className="container-luxury">
+        <div className="max-w-4xl mx-auto">
+          <p className="section-subtitle text-gold-600">Executive Outcall Guide</p>
+          <h2 className="section-title mb-8 text-[#0F172A]">
+            Comprehensive Guide to{' '}
+            <span className="text-gradient-gold font-normal">
+              Aerocity Escort Service
+            </span>
           </h2>
-          <p className="text-charcoal-300 text-sm md:text-base leading-relaxed max-w-2xl mx-auto">
-            Essential information on hotel outcall protocols, flight layover bookings, and verified booking standards in Delhi&apos;s Aerocity Hospitality District.
-          </p>
-        </div>
+          <div className="gold-divider mb-10" />
 
-        <div className="space-y-12 text-charcoal-300 text-sm md:text-base leading-relaxed">
-          <div className="p-8 rounded-2xl bg-charcoal-900/40 border border-charcoal-800">
-            <div className="flex items-center gap-3 mb-4">
-              <Hotel className="text-gold-400 w-6 h-6 flex-shrink-0" />
-              <h3 className="font-serif text-xl font-bold text-white">
-                5-Star Hotel Outcalls in Aerocity Hospitality District
-              </h3>
-            </div>
-            <p className="mb-4">
-              Aerocity is home to Delhi&apos;s most sophisticated 5-star international hotel cluster, neighboring Indira Gandhi International Airport. Our escort agency maintains regular, seamless outcall service across all luxury establishments:
+          <div className="space-y-6 text-gray-700 leading-relaxed text-base">
+            <p>
+              Strategically located adjacent to Indira Gandhi International (IGI) Airport, the Aerocity Hospitality District represents the apex of corporate hospitality in New Delhi. Our executive outcall service provides seamless, discreet access to verified <Link href="/category/vip-call-girls" className="text-gold-600 hover:underline font-medium">VIP call girls</Link> and <Link href="/category/russian-call-girls" className="text-gold-600 hover:underline font-medium">Russian escorts</Link> across all 5-star properties.
             </p>
+
+            <h3 className="text-2xl font-bold text-[#0F172A] mt-8 mb-4 flex items-center gap-3">
+              <Hotel className="text-gold-600 w-6 h-6 flex-shrink-0" />
+              5-Star Hotel Outcalls in Aerocity Hospitality District
+            </h3>
+            <p>
+              We maintain dedicated concierge dispatch for corporate executives, transit passengers, and hotel guests across all premier establishments:
+            </p>
+
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 my-6">
               {aerocityHotels.map((hotel) => (
-                <div key={hotel} className="flex items-center gap-2 p-2.5 rounded-lg bg-charcoal-800/40 border border-charcoal-700/40 text-xs text-charcoal-200">
-                  <CheckCircle2 size={14} className="text-gold-400 flex-shrink-0" />
-                  <span>{hotel}</span>
+                <div key={hotel} className="flex items-center gap-2 p-3 rounded-xl bg-white border border-gray-100 shadow-sm text-xs text-gray-800">
+                  <CheckCircle2 size={16} className="text-gold-500 flex-shrink-0" />
+                  <span className="font-medium">{hotel}</span>
                 </div>
               ))}
             </div>
-            <p className="text-xs text-charcoal-400">
-              When booking, simply provide your hotel name and room number. Our VIP escorts arrive with understated sophistication, allowing for seamless room entry without awkward lobby questions.
+
+            <p>
+              When booking, simply provide your hotel name and suite number. Our VIP escorts arrive impeccably styled, ensuring smooth, unobtrusive room entry without attracting attention in lobbies.
             </p>
-          </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="p-8 rounded-2xl bg-charcoal-900/40 border border-charcoal-800">
-              <div className="flex items-center gap-3 mb-4">
-                <Clock className="text-gold-400 w-6 h-6 flex-shrink-0" />
-                <h3 className="font-serif text-lg font-bold text-white">
-                  Layover & Transit Outcall Coordination
-                </h3>
-              </div>
-              <p className="text-xs md:text-sm text-charcoal-300 leading-relaxed">
-                Whether you have a 4-hour international layover at Terminal 3 or an overnight stay before an early morning flight, our rapid 15-20 min dispatch ensures you make the most of your private downtime.
-              </p>
-            </div>
+            <h3 className="text-2xl font-bold text-[#0F172A] mt-8 mb-4 flex items-center gap-3">
+              <Clock className="text-gold-600 w-6 h-6 flex-shrink-0" />
+              Rapid 15-20 Min Layover & Transit Coordination
+            </h3>
+            <p>
+              Whether you have a 4-hour layover at Terminal 3 or an overnight stay before a morning flight, our rapid 15 to 20-minute dispatch ensures you maximize your downtime in absolute comfort.
+            </p>
 
-            <div className="p-8 rounded-2xl bg-charcoal-900/40 border border-charcoal-800">
-              <div className="flex items-center gap-3 mb-4">
-                <ShieldCheck className="text-gold-400 w-6 h-6 flex-shrink-0" />
-                <h3 className="font-serif text-lg font-bold text-white">
-                  Zero Upfront Fee & COD Policy
-                </h3>
-              </div>
-              <p className="text-xs md:text-sm text-charcoal-300 leading-relaxed">
-                We strictly reject deceptive upfront deposit scams common across unregistered Delhi escorts. You verify your selected escort in person before completing the service fee.
-              </p>
-            </div>
+            <h3 className="text-2xl font-bold text-[#0F172A] mt-8 mb-4 flex items-center gap-3">
+              <ShieldCheck className="text-gold-600 w-6 h-6 flex-shrink-0" />
+              Zero Upfront Advance Fees & 100% Cash on Delivery
+            </h3>
+            <p>
+              We strictly operate on transparency: inspect and verify your chosen escort in person in your room before settling the service fee. No advance deposits, no gift card scams, and zero digital tracking.
+            </p>
           </div>
         </div>
       </div>

@@ -344,7 +344,7 @@ export default function FAQPage() {
       </section>
 
       {/* Still Have Questions CTA */}
-      <section className="py-16 bg-gradient-to-br from-[#faf6f2] to-white">
+      <section className="py-16 bg-gradient-to-br from-[#FDFBF7] to-white">
         <div className="container-luxury">
           <div className="bg-gradient-to-r from-gold-50 via-amber-50 to-gold-50 rounded-3xl p-8 md:p-12 border-2 border-gold-200 text-center max-w-4xl mx-auto shadow-sm">
             <h3 className="text-3xl font-bold text-[#0F172A] mb-4 font-serif">

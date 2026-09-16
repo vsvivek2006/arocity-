@@ -63,7 +63,7 @@ export default function HomeBlogSection() {
         <div className="text-center mt-10">
           <Link
             href="/blog"
-            className="btn-outline-gold inline-flex items-center gap-2"
+            className="btn-outline-gold-gold inline-flex items-center gap-2"
           >
             View All Articles <ArrowRight size={16} />
           </Link>

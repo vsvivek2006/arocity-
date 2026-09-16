@@ -49,7 +49,7 @@ export default function HeroSection() {
             </Link>
             <a
               href={`tel:${siteConfig.phone}`}
-              className="btn-outline"
+              className="btn-outline-gold-gold"
             >
               <Phone size={16} className="text-gold-400" />
               <span>{siteConfig.phoneDisplay}</span>
@@ -78,7 +78,7 @@ export default function HeroSection() {
       </section>
 
       {/* Rapid Booking Banner tailored for Aerocity Airport Hotels */}
-      <section className="bg-gradient-to-r from-gold-950/60 via-charcoal-900 to-gold-950/60 border-y border-gold-500/20 py-5">
+      <section className="py-14 bg-charcoal-800 border-y border-charcoal-700">
         <div className="container-luxury flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-full bg-gold-500/10 flex items-center justify-center border border-gold-500/30 flex-shrink-0">
