@@ -9,21 +9,21 @@ const reasons = [
   {
     icon: ShieldCheck,
     title: '100% Verified Untouched Profiles',
-    desc: 'Every companion photograph is authentic and in-person verified. We strictly enforce a zero-catfish policy.',
+    desc: 'Every model photograph is authentic and in-person verified. We strictly enforce a zero-catfish policy.',
   },
   {
     icon: Lock,
     title: 'Absolute Discretion for Travelers',
-    desc: 'Companions arrive impeccably styled in discreet business or cocktail attire that blends naturally into 5-star hotel lobbies.',
+    desc: 'VIP escorts arrive impeccably styled in discreet business or cocktail attire that blends naturally into 5-star hotel lobbies.',
   },
   {
     icon: DollarSign,
     title: 'Transparent Cash on Delivery (COD)',
-    desc: 'No upfront fee demands or untraceable transfers. Inspect and verify your companion in your suite before settling payment.',
+    desc: 'No upfront fee demands or untraceable transfers. Inspect and verify your escort in your suite before settling payment.',
   },
   {
     icon: Sparkles,
-    title: 'Multilingual & Cultured Companions',
+    title: 'Multilingual & Cultured VIP Escorts',
     desc: 'Fluent in English with refined social etiquette, ideal for corporate dinners, executive gatherings, or intimate suite evenings.',
   },
   {

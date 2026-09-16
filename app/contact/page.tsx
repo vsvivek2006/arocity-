@@ -16,16 +16,16 @@ import ContactForm from '@/components/ContactForm';
 import { siteConfig } from '@/data/siteConfig';
 
 export const metadata: Metadata = {
-  title: 'Book Gurgaon Escorts | 24/7 Private Concierge | ALINA VIP India',
+  title: 'Book Aerocity Escorts | 24/7 5-Star Hotel Concierge | Aerocity Escort Service',
   description:
-    'Connect with ALINA VIP India for verified companion reservations in Gurgaon. Call +91-9996265679 or WhatsApp for confidential 20-30 min hotel & residence outcalls.',
+    'Connect with Aerocity Escort Service for verified VIP escort reservations in Aerocity. Call +91-9996265679 or WhatsApp for 15-20 min outcalls to JW Marriott, Pullman, and Andaz.',
   alternates: {
     canonical: `${siteConfig.url}/contact`,
   },
   openGraph: {
-    title: 'Book Gurgaon Escorts | 24/7 Private Concierge | ALINA VIP India',
+    title: 'Book Aerocity Escorts | 24/7 5-Star Hotel Concierge | Aerocity Escort Service',
     description:
-      'Connect with ALINA VIP India for verified companion reservations in Gurgaon. Call +91-9996265679 or WhatsApp for confidential 20-30 min hotel & residence outcalls.',
+      'Connect with Aerocity Escort Service for verified VIP escort reservations in Aerocity. Call +91-9996265679 or WhatsApp for 15-20 min outcalls to JW Marriott, Pullman, and Andaz.',
     url: `${siteConfig.url}/contact`,
     type: 'website',
   },
@@ -46,7 +46,7 @@ export default function ContactPage() {
             ★ 24/7 Concierge Support
           </span>
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 font-serif tracking-wide">
-            Contact <span className="text-gradient-gold">ALINA VIP India</span>
+            Contact <span className="text-gradient-gold">Aerocity Escort Service</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
             Reserve verified escorts,{' '}
@@ -169,7 +169,7 @@ export default function ContactPage() {
               {/* Privacy & Discretion Card */}
               <div className="p-6 bg-gradient-to-br from-gold-50 to-amber-50 rounded-2xl border-2 border-gold-200">
                 <h4 className="font-bold text-[#1a1a2e] text-base mb-3 flex items-center gap-2">
-                  <ShieldCheck className="w-5 h-5 text-gold-600" /> ALINA VIP Discretion Guarantee
+                  <ShieldCheck className="w-5 h-5 text-gold-600" /> Aerocity Escort Service Discretion Guarantee
                 </h4>
                 <ul className="space-y-2 text-xs text-gray-700">
                   <li className="flex items-center gap-2">
@@ -268,11 +268,11 @@ export default function ContactPage() {
         <div className="container-luxury max-w-4xl">
           <div className="prose-luxury bg-[#faf6f2] p-8 md:p-12 rounded-2xl border border-gold-200/60 shadow-sm">
             <h2 className="text-3xl font-bold text-[#1a1a2e] mb-6 font-serif">
-              How to Book Escort Service in Gurgaon with ALINA VIP
+              How to Book Escort Service in Aerocity with Aerocity Escort Service
             </h2>
             <div className="space-y-4 text-gray-700 text-lg leading-relaxed">
               <p>
-                Booking escort service with <strong>ALINA VIP</strong> is designed to be effortless, sophisticated, and completely discreet. We respect your schedule and privacy at every stage of the engagement.
+                Booking escort service with <strong>Aerocity Escort Service</strong> is designed to be effortless, sophisticated, and completely discreet. We respect your schedule and privacy at every stage of the engagement.
               </p>
               <div className="space-y-4 my-6">
                 <div className="flex items-start gap-4">
@@ -286,7 +286,7 @@ export default function ContactPage() {
                     <p className="text-gray-600 text-sm">
                       Browse our verified collection of{' '}
                       <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                        call girls in Gurgaon
+                        call girls in Aerocity
                       </Link>
                       ,{' '}
                       <Link href="/category/russian-call-girls" className="text-gold-600 hover:underline font-semibold">
@@ -352,7 +352,7 @@ export default function ContactPage() {
                   Zero-Trace Privacy &amp; Data Safeguards
                 </h3>
                 <p className="text-sm text-gray-700 leading-relaxed">
-                  Discretion is the core tenet of ALINA VIP. We understand that our clientele includes high-ranking corporate leaders, diplomats, entrepreneurs, and discerning individuals who require total confidentiality. We implement an ephemeral data workflow: your contact information, messages, and meeting specifics are never stored in permanent databases, marketing mailing lists, or shared with third parties. Once your engagement concludes, all communication history is promptly purged.
+                  Discretion is the core tenet of Aerocity Escort Service. We understand that our clientele includes high-ranking corporate leaders, diplomats, entrepreneurs, and discerning individuals who require total confidentiality. We implement an ephemeral data workflow: your contact information, messages, and meeting specifics are never stored in permanent databases, marketing mailing lists, or shared with third parties. Once your engagement concludes, all communication history is promptly purged.
                 </p>
                 <p className="text-sm text-gray-700 leading-relaxed">
                   Furthermore, our escorts arrive in unmarked, private executive vehicles. They dress in sophisticated contemporary attire appropriate for luxury hotel lobbies or fine residential buildings, ensuring your privacy is safeguarded from doorstep to suite.
@@ -375,7 +375,7 @@ export default function ContactPage() {
                   Transparent Pricing &amp; Cash on Delivery Protection
                 </h3>
                 <p className="text-sm text-gray-700 leading-relaxed">
-                  The escort industry in Gurgaon unfortunately has unregulated actors who demand advance booking deposits or gift cards and then fail to deliver. At ALINA VIP, we maintain an ethical, transparent booking process. We support direct Cash on Delivery (COD), allowing you to verify your companion upon arrival before settling the booking fee. No hidden surcharges, no misleading photos, and no advance payment traps.
+                  The escort industry in Aerocity unfortunately has unregulated actors who demand advance booking deposits or gift cards and then fail to deliver. At Aerocity Escort Service, we maintain an ethical, transparent booking process. We support direct Cash on Delivery (COD), allowing you to verify your escort upon arrival before settling the booking fee. No hidden surcharges, no misleading photos, and no advance payment traps.
                 </p>
               </div>
 
@@ -405,7 +405,7 @@ export default function ContactPage() {
 
                   <div className="p-4 bg-white rounded-xl border border-gray-200 shadow-xs">
                     <h4 className="font-bold text-[#1a1a2e] text-sm mb-1">
-                      Can I book companion accompaniment for multi-day travel or conferences?
+                      Can I book VIP escort accompaniment for multi-day travel or conferences?
                     </h4>
                     <p className="text-xs text-gray-600 leading-relaxed">
                       Yes, many of our escorts are experienced travel partners available for weekend getaways, outstation business conferences, and resort stays. Please contact our desk directly with your travel itinerary to arrange travel logistics and bespoke packages with absolute confidentiality.

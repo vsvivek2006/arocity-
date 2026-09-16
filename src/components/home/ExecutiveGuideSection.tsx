@@ -48,7 +48,7 @@ export default function ExecutiveGuideSection() {
               ))}
             </div>
             <p className="text-xs text-charcoal-400">
-              When booking, simply provide your hotel name and room number. Our companions arrive with understated sophistication, allowing for seamless room entry without awkward lobby questions.
+              When booking, simply provide your hotel name and room number. Our VIP escorts arrive with understated sophistication, allowing for seamless room entry without awkward lobby questions.
             </p>
           </div>
 
@@ -73,7 +73,7 @@ export default function ExecutiveGuideSection() {
                 </h3>
               </div>
               <p className="text-xs md:text-sm text-charcoal-300 leading-relaxed">
-                We strictly reject deceptive upfront deposit scams common across unregistered Delhi escorts. You verify your selected companion in person before completing the service fee.
+                We strictly reject deceptive upfront deposit scams common across unregistered Delhi escorts. You verify your selected escort in person before completing the service fee.
               </p>
             </div>
           </div>

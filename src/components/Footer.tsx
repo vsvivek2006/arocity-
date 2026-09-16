@@ -12,10 +12,10 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <h3 className="font-serif text-2xl font-medium text-white mb-2">
-              ALINA <span className="text-gold-500 font-light">VIP</span>
+              Aerocity <span className="text-gold-500 font-light">Escorts</span>
             </h3>
             <p className="text-sm text-charcoal-400 leading-relaxed mb-6">
-              {siteConfig.tagline}. Premium luxury escort services in Gurgaon for discerning gentlemen.
+              Premier luxury escort services & 5-star hotel VIP call girls in Delhi Aerocity and IGI Airport for discerning gentlemen.
             </p>
             <div className="flex gap-4">
               {siteConfig.socialLinks.map((social) => {

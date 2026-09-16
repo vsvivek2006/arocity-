@@ -20,18 +20,18 @@ import CTASection from '@/components/CTASection';
 import { siteConfig, getAlternateLanguages } from '@/data/siteConfig';
 
 export const metadata: Metadata = {
-  title: 'About ALINA VIP India | Escort Service in Gurgaon (Gurugram)',
+  title: 'About Aerocity Escort Service | 5-Star Hotel VIP Escorts New Delhi',
   description:
-    'Discover the legacy of ALINA VIP India. Over a decade of excellence providing premier escort service in Gurgaon (Gurugram) with verified call girls, VIP escort girls, and 5-star hotel outcalls.',
+    'Discover Aerocity Escort Service. New Delhi premier agency providing verified VIP call girls, Russian models, and 15-20 min 5-star hotel outcalls to JW Marriott, Pullman, Andaz, and Roseate House.',
   keywords: siteConfig.keywords,
   alternates: {
     canonical: `${siteConfig.url}/about`,
     languages: getAlternateLanguages('/about'),
   },
   openGraph: {
-    title: 'About ALINA VIP India | Escort Service in Gurgaon (Gurugram)',
+    title: 'About Aerocity Escort Service | 5-Star Hotel VIP Escorts New Delhi',
     description:
-      'Discover the legacy of ALINA VIP India. Over a decade of excellence providing premier escort service in Gurgaon (Gurugram) with verified call girls, VIP escort girls, and 5-star hotel outcalls.',
+      'Discover Aerocity Escort Service. New Delhi premier agency providing verified VIP call girls, Russian models, and 15-20 min 5-star hotel outcalls to JW Marriott, Pullman, Andaz, and Roseate House.',
     url: `${siteConfig.url}/about`,
     type: 'website',
   },
@@ -50,13 +50,13 @@ export default function AboutPage() {
         <div className="container-luxury relative z-10">
           <div className="text-center">
             <span className="inline-block px-6 py-2 border border-gold-500/30 rounded-full text-gold-400 text-sm font-semibold tracking-wider uppercase mb-6 bg-gold-500/10 backdrop-blur-sm">
-              ★ About ALINA VIP India
+              ★ About Aerocity Escort Service
             </span>
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 font-serif tracking-wide">
-              The Story of <span className="text-gradient-gold">ALINA VIP India</span>
+              The Story of <span className="text-gradient-gold">Aerocity Escort Service</span>
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Gurgaon (Gurugram)&apos;s leading high-end <Link href="/services" className="text-gold-400 hover:underline font-medium">escorts service</Link>, connecting discerning executives and travellers with authenticated call girls,{' '}
+              Delhi Aerocity&apos;s premier luxury <Link href="/services" className="text-gold-400 hover:underline font-medium">escorts service</Link>, connecting discerning executives and travellers with authenticated call girls,{' '}
               <Link href="/category/russian-call-girls" className="text-gold-400 hover:underline font-medium">
                 Russian call girls
               </Link>
@@ -99,7 +99,7 @@ export default function AboutPage() {
                   . Our agency is designed for discerning gentlemen who value discretion, quality, and professionalism.
                 </p>
                 <p className="text-gray-700 text-lg leading-relaxed">
-                  Founded with a vision to redefine escort services in Gurgaon, we have established ourselves as the city&apos;s most trusted name in luxury hospitality and escort service. Our verified profiles, rigorous screening process, and unwavering commitment to privacy set us apart.
+                  Founded with a vision to redefine escort services in Aerocity, we have established ourselves as the city&apos;s most trusted name in luxury hospitality and escort service. Our verified profiles, rigorous screening process, and unwavering commitment to privacy set us apart.
                 </p>
               </div>
 
@@ -110,10 +110,10 @@ export default function AboutPage() {
                 </h3>
                 <div className="space-y-4 text-gray-700 text-lg leading-relaxed">
                   <p>
-                    <strong>ALINA VIP</strong> was founded with a singular vision: to elevate the escort service experience in Gurgaon by providing a service that is sophisticated, professional, and uncompromising in its commitment to quality and discretion. In an industry often characterised by inconsistency and a lack of professionalism, we saw an opportunity to create something different — an agency that operates with the standards of a luxury hospitality brand.
+                    <strong>ALINA VIP</strong> was founded with a singular vision: to elevate the escort service experience in Aerocity by providing a service that is sophisticated, professional, and uncompromising in its commitment to quality and discretion. In an industry often characterised by inconsistency and a lack of professionalism, we saw an opportunity to create something different — an agency that operates with the standards of a luxury hospitality brand.
                   </p>
                   <p>
-                    Our journey began with a simple observation: discerning gentlemen in Gurgaon deserved an escort service that matched their lifestyle and expectations. The city had become one of India&apos;s most cosmopolitan centres, home to business leaders, entrepreneurs, and global executives. Yet the options for verified, quality escorts were limited. <strong>ALINA VIP</strong> was created to fill this gap.
+                    Our journey began with a simple observation: discerning gentlemen in Aerocity deserved an escort service that matched their lifestyle and expectations. The city had become one of India&apos;s most cosmopolitan centres, home to business leaders, entrepreneurs, and global executives. Yet the options for verified, quality escorts were limited. <strong>ALINA VIP</strong> was created to fill this gap.
                   </p>
                   <p>
                     From the outset, we made several key decisions that would shape our service philosophy. We decided that every profile in our portfolio would undergo a thorough verification process, ensuring that profiles were genuine and accurate. We committed to complete discretion in all client interactions, recognising that privacy is a fundamental need for our clientele. And we chose to focus on quality over quantity, maintaining a curated selection rather than an exhaustive but inconsistent roster.
@@ -124,7 +124,7 @@ export default function AboutPage() {
               {/* Why Choose ALINA VIP */}
               <div>
                 <h3 className="text-2xl md:text-3xl font-bold text-[#0F172A] mb-6 font-serif">
-                  Why Choose ALINA VIP for Escort Service in Gurgaon?
+                  Why Choose ALINA VIP for Escort Service in Aerocity?
                 </h3>
                 <div className="space-y-4">
                   <div className="flex items-start gap-4 p-5 bg-[#FDFBF7] rounded-2xl border border-gold-200/50 hover:shadow-md transition-shadow">
@@ -215,7 +215,7 @@ export default function AboutPage() {
                   Our Mission – Excellence in Escort Service
                 </h3>
                 <p className="text-gray-700 text-lg leading-relaxed mb-4">
-                  Our mission is to provide the finest escort services in Gurgaon, characterised by verified profiles, exceptional conversational skills, and unwavering discretion. We strive to create experiences that are memorable, sophisticated, and tailored to the unique preferences of each client.
+                  Our mission is to provide the finest escort services in Aerocity, characterised by verified profiles, exceptional conversational skills, and unwavering discretion. We strive to create experiences that are memorable, sophisticated, and tailored to the unique preferences of each client.
                 </p>
                 <p className="text-gray-700 text-lg leading-relaxed">
                   We believe that great escort service is about more than just physical beauty. It is about the complete experience of spending time with someone who is cultured, articulate, and genuinely engaging. It is about the comfort of knowing that your privacy is protected and your expectations are consistently met.
@@ -265,7 +265,7 @@ export default function AboutPage() {
               {/* Areas We Serve */}
               <div>
                 <h3 className="text-2xl md:text-3xl font-bold text-[#0F172A] mb-4 font-serif">
-                  Areas We Serve – Escort Service in Gurgaon
+                  Areas We Serve – Escort Service in Aerocity
                 </h3>
                 <p className="text-gray-700 text-lg leading-relaxed mb-4">
                   Our agency provides discreet outcall service across major sectors and commercial hubs. Explore our complete{' '}
@@ -471,7 +471,7 @@ export default function AboutPage() {
                 </h3>
                 <div className="space-y-4 text-gray-700 text-lg leading-relaxed">
                   <p>
-                    In a competitive market, <strong>ALINA VIP</strong> stands apart through a combination of factors that together create a service experience unlike any other in Gurgaon. Our rigorous verification process ensures that every profile is genuine, giving our clients confidence in their choices.
+                    In a competitive market, <strong>ALINA VIP</strong> stands apart through a combination of factors that together create a service experience unlike any other in Aerocity. Our rigorous verification process ensures that every profile is genuine, giving our clients confidence in their choices.
                   </p>
                   <p>
                     Our commitment to discretion is comprehensive and multi-layered. We protect client information at every stage of the booking process, train our models in privacy protocols, and design our digital presence without persistent logs. Our 24/7 availability ensures prompt coordination whether for a planned evening or an urgent request.
@@ -600,8 +600,8 @@ export default function AboutPage() {
                   <div className="relative h-48 overflow-hidden">
                     <Image
                       src="/images/about-1.webp"
-                      alt="Verified VIP Escorts in Gurgaon"
-                      title="Verified VIP Escorts in Gurgaon"
+                      alt="Verified VIP Escorts in Aerocity"
+                      title="Verified VIP Escorts in Aerocity"
                       fill
                       sizes="(max-width: 1024px) 50vw, 220px"
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -638,7 +638,7 @@ export default function AboutPage() {
                 </div>
                 <p className="font-bold text-[#0F172A] text-2xl font-serif">4.9 / 5 Star Rating</p>
                 <p className="text-gray-600 text-sm mt-1">
-                  Based on 500+ verified client reviews across Gurgaon
+                  Based on 500+ verified client reviews across Aerocity & IGI Airport
                 </p>
                 <div className="flex justify-center gap-1.5 mt-3">
                   {[...Array(5)].map((_, i) => (
@@ -672,7 +672,7 @@ export default function AboutPage() {
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle2 className="w-3.5 h-3.5 text-gold-600 flex-shrink-0" />
-                    <span>Prompt arrival at top-tier hotels across Gurgaon</span>
+                    <span>Prompt arrival at top-tier hotels across Aerocity & IGI Airport</span>
                   </li>
                 </ul>
               </div>

@@ -6,7 +6,7 @@ const trustPillars = [
   { icon: ShieldCheck, title: 'Verified Aerocity Models', desc: 'Strict zero-catfish policy' },
   { icon: Lock, title: 'Absolute Secrecy', desc: 'Zero client digital footprint' },
   { icon: Clock, title: '15-20 Min Arrival', desc: 'Direct Aerocity hotel dispatch' },
-  { icon: Star, title: 'Cash On Delivery', desc: 'Verify companion first' },
+  { icon: Star, title: 'Cash On Delivery', desc: 'Verify model first' },
 ];
 
 export default function HeroSection() {
@@ -34,7 +34,7 @@ export default function HeroSection() {
             className="text-charcoal-300 text-base md:text-lg max-w-xl mx-auto mb-8 leading-relaxed animate-fade-up"
             style={{ animationDelay: '0.2s' }}
           >
-            New Delhi&apos;s leading verified <Link href="/services" className="text-gold-400 hover:underline font-medium">aerocity escort service</Link>. Elite <Link href="/category/vip-call-girls" className="text-gold-400 hover:underline font-medium">VIP call girls</Link>, Russian models, and celebrity companions with 15–20 min discreet hotel outcalls across JW Marriott, Pullman, Andaz, and Roseate House.
+            New Delhi&apos;s leading verified <Link href="/services" className="text-gold-400 hover:underline font-medium">aerocity escort service</Link>. Elite <Link href="/category/vip-call-girls" className="text-gold-400 hover:underline font-medium">VIP call girls</Link>, Russian models, and celebrity VIP escorts with 15–20 min discreet hotel outcalls across JW Marriott, Pullman, Andaz, and Roseate House.
           </p>
 
           <div

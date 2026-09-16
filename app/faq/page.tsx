@@ -16,17 +16,17 @@ import CTASection from '@/components/CTASection';
 import { siteConfig, generalFaqs, getAlternateLanguages } from '@/data/siteConfig';
 
 export const metadata: Metadata = {
-  title: 'Gurgaon Escort Service FAQs | Booking & Verification Guide | ALINA VIP India',
+  title: 'Aerocity Escort Service FAQs | Booking & 5-Star Hotel Guide',
   description:
-    'Get authoritative answers to client questions regarding VIP call girls, Russian escorts, discretion protocols, hotel outcall procedures, and rates with ALINA VIP India.',
+    'Get authoritative answers to client questions regarding VIP call girls, Russian escorts, discretion protocols, hotel outcalls, and rates with Aerocity Escort Service.',
   alternates: {
     canonical: `${siteConfig.url}/faq`,
     languages: getAlternateLanguages('/faq'),
   },
   openGraph: {
-    title: 'Gurgaon Escort Service FAQs | Booking & Verification Guide | ALINA VIP India',
+    title: 'Aerocity Escort Service FAQs | Booking & Verification Guide | Aerocity Escort Service',
     description:
-      'Get authoritative answers to client questions regarding VIP call girls, Russian escorts, discretion protocols, hotel outcall procedures, and rates with ALINA VIP India.',
+      'Get authoritative answers to client questions regarding VIP call girls, Russian escorts, discretion protocols, hotel outcall procedures, and rates with Aerocity Escort Service.',
     url: `${siteConfig.url}/faq`,
     type: 'website',
   },
@@ -71,7 +71,7 @@ export default function FAQPage() {
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
             Find transparent answers regarding{' '}
-            <strong className="text-gold-400 font-semibold">private escort bookings in Gurgaon</strong>,{' '}
+            <strong className="text-gold-400 font-semibold">private escort bookings in Aerocity</strong>,{' '}
             <Link href="/services" className="text-gold-400 hover:underline font-medium">
               VIP call girls
             </Link>
@@ -79,7 +79,7 @@ export default function FAQPage() {
             <Link href="/category/russian-call-girls" className="text-gold-400 hover:underline font-medium">
               Russian call girls
             </Link>
-            , and verified outcall protocols with ALINA VIP India.
+            , and verified outcall protocols with Aerocity Escort Service.
           </p>
           <div className="gold-divider mx-auto mt-8" />
         </div>
@@ -100,7 +100,7 @@ export default function FAQPage() {
                 <p className="text-gray-600 max-w-2xl mt-6 leading-relaxed">
                   Everything you need to know about our{' '}
                   <Link href="/services" className="text-gold-600 hover:underline font-medium">
-                    escort service in Gurgaon
+                    escort service in Aerocity
                   </Link>{' '}
                   and{' '}
                   <Link href="/services" className="text-gold-600 hover:underline font-medium">
@@ -139,11 +139,11 @@ export default function FAQPage() {
               <div className="mt-12 p-8 bg-[#FDFBF7] rounded-2xl border border-gold-200/60 shadow-sm space-y-6">
                 <div>
                   <h3 className="text-2xl font-bold text-[#0F172A] font-serif mb-2">
-                    Client Guidelines &amp; Etiquette for Escort Service in Gurgaon
+                    Client Guidelines &amp; Etiquette for Escort Service in Aerocity
                   </h3>
                   <div className="gold-divider mb-4" />
                   <p className="text-gray-700 leading-relaxed text-sm md:text-base">
-                    At <strong>ALINA VIP</strong>, our goal is to deliver an unforgettable escort service experience built upon mutual courtesy, elegance, and unyielding privacy. Whether you are reserving an outcall escort for a high-profile corporate function, a romantic dinner date on Golf Course Road, or private suite relaxation in Cyber City, adhering to standard etiquette ensures seamless satisfaction.
+                    At <strong>Aerocity Escort Service</strong>, our goal is to deliver an unforgettable escort service experience built upon mutual courtesy, elegance, and unyielding privacy. Whether you are reserving an outcall escort for a high-profile corporate function, a romantic dinner date on Golf Course Road, or private suite relaxation in Cyber City, adhering to standard etiquette ensures seamless satisfaction.
                   </p>
                 </div>
 
@@ -296,7 +296,7 @@ export default function FAQPage() {
               {/* Trust Features Card */}
               <div className="bg-gold-50/80 p-6 rounded-2xl border border-gold-200/80 shadow-sm">
                 <h3 className="font-bold text-[#0F172A] text-center mb-4 font-serif text-lg">
-                  Why Choose ALINA VIP
+                  Why Choose Aerocity Escort Service
                 </h3>
                 <div className="space-y-3 text-sm text-gray-700">
                   <div className="flex items-center gap-3">
@@ -330,8 +330,8 @@ export default function FAQPage() {
               <div className="relative h-48 rounded-2xl overflow-hidden shadow-xl border border-gold-200/60 bg-neutral-900">
                 <Image
                   src="/images/faq-sidebar.webp"
-                  alt="Escort Service in Gurgaon - VIP Call Girls FAQ"
-                  title="Escort Service in Gurgaon - VIP Call Girls FAQ"
+                  alt="Escort Service in Aerocity - VIP Call Girls FAQ"
+                  title="Escort Service in Aerocity - VIP Call Girls FAQ"
                   fill
                   sizes="(max-width: 1024px) 100vw, 384px"
                   className="object-cover"
@@ -353,7 +353,7 @@ export default function FAQPage() {
             <p className="text-gray-700 mb-6 max-w-2xl mx-auto leading-relaxed">
               Our team is available 24/7 to answer all your questions about{' '}
               <Link href="/services" className="text-gold-600 hover:underline font-semibold">
-                call girls in Gurgaon
+                call girls in Aerocity
               </Link>
               ,{' '}
               <Link href="/category/russian-call-girls" className="text-gold-600 hover:underline font-semibold">

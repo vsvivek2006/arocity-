@@ -21,17 +21,17 @@ import { siteConfig, getAlternateLanguages } from '@/data/siteConfig';
 import { categories } from '@/data/categories';
 
 export const metadata: Metadata = {
-  title: 'Verified Photo Gallery | VIP Call Girls & Gurgaon Escorts | ALINA VIP India',
+  title: 'Verified Photo Gallery | VIP Call Girls & Aerocity Escorts',
   description:
-    'Browse authenticated, untouched photographs of VIP call girls and luxury escorts in Gurgaon. Genuine Russian escorts, model escort girls, and high-profile girls.',
+    'Browse authenticated, untouched photographs of VIP call girls and luxury escorts in Aerocity New Delhi. Genuine Russian escorts, model call girls, and 5-star hotel escorts.',
   alternates: {
     canonical: `${siteConfig.url}/gallery`,
     languages: getAlternateLanguages('/gallery'),
   },
   openGraph: {
-    title: 'Verified Photo Gallery | VIP Call Girls & Gurgaon Escorts | ALINA VIP India',
+    title: 'Verified Photo Gallery | VIP Call Girls & Aerocity Escorts | Aerocity Escort Service',
     description:
-      'Browse authenticated, untouched photographs of VIP call girls and luxury escorts in Gurgaon. Genuine Russian escorts, model escort girls, and high-profile girls.',
+      'Browse authenticated, untouched photographs of VIP call girls and luxury escorts in Aerocity. Genuine Russian escorts, model escort girls, and high-profile girls.',
     url: `${siteConfig.url}/gallery`,
     type: 'website',
   },
@@ -100,7 +100,7 @@ export default function GalleryPage() {
             </Link>
             , and{' '}
             <Link href="/services" className="text-gold-400 hover:underline font-medium">
-              elite escorts in Gurgaon
+              elite escorts in Aerocity
             </Link>
             . Every photograph is authenticated in person to guarantee 100% profile accuracy.
           </p>
@@ -120,7 +120,7 @@ export default function GalleryPage() {
             <p className="text-gray-600 max-w-2xl mx-auto mt-6 leading-relaxed text-base">
               Explore our curated collection of verified{' '}
               <Link href="/services" className="text-gold-600 hover:underline font-medium">
-                call girls in Gurgaon
+                call girls in Aerocity
               </Link>
               . Each category represents premium{' '}
               <Link href="/services" className="text-gold-600 hover:underline font-medium">
@@ -145,8 +145,8 @@ export default function GalleryPage() {
                   <div className="relative aspect-[3/4] overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900">
                     <Image
                       src={imageSrc}
-                      alt={`${cat.name} - Escort Service in Gurgaon | VIP Call Girls`}
-                      title={`${cat.name} - Escort Service in Gurgaon | VIP Call Girls`}
+                      alt={`${cat.name} - Escort Service in Aerocity | VIP Call Girls`}
+                      title={`${cat.name} - Escort Service in Aerocity | VIP Call Girls`}
                       fill
                       sizes="(max-width: 640px) calc(100vw - 32px), (max-width: 1024px) 50vw, 390px"
                       className="object-cover group-hover:scale-105 transition-transform duration-700"
@@ -261,7 +261,7 @@ export default function GalleryPage() {
             <p className="text-gray-600">
               Browse our most popular{' '}
               <Link href="/services" className="text-gold-600 hover:underline font-medium">
-                escort service categories in Gurgaon
+                escort service categories in Aerocity
               </Link>
             </p>
             <div className="gold-divider mx-auto mt-4" />

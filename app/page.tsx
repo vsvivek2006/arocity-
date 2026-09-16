@@ -17,7 +17,7 @@ import HomeContactSection from '@/components/home/HomeContactSection';
 export const metadata: Metadata = {
   title: 'Aerocity Escort Service | VIP Call Girls & 5-Star Hotel Escorts New Delhi',
   description:
-    'ALINA VIP provides premier escort service in Gurgaon (Gurugram). Verified VIP call girls, top escorts service, and discreet 20-30 min 5-star hotel outcalls across DLF, Cyber City, and Golf Course Road.',
+    'Aerocity Escort Service provides premier escort services in Aerocity New Delhi. Verified VIP call girls, Russian models, and discreet 15-20 min 5-star hotel outcalls across JW Marriott, Pullman, Andaz, Roseate House, and Novotel.',
   keywords: siteConfig.keywords,
   alternates: {
     canonical: siteConfig.url,
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Aerocity Escort Service | VIP Call Girls & 5-Star Hotel Escorts New Delhi',
     description:
-      'ALINA VIP provides premier escort service in Gurgaon (Gurugram). Verified VIP call girls, top escorts service, and discreet 20-30 min 5-star hotel outcalls across DLF, Cyber City, and Golf Course Road.',
+      'Aerocity Escort Service provides premier escort services in Aerocity New Delhi. Verified VIP call girls, Russian models, and discreet 15-20 min 5-star hotel outcalls across JW Marriott, Pullman, Andaz, Roseate House, and Novotel.',
     url: siteConfig.url,
     type: 'website',
   },

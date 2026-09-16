@@ -28,10 +28,10 @@ export const metadata: Metadata = {
     template: '%s | Aerocity Escort Service',
   },
   description:
-    'ALINA VIP is the #1 escort service in Gurgaon (Gurugram). Book verified VIP call girls and elite escorts service with 20-30 min 5-star hotel outcall dispatch across DLF, Cyber City, and Golf Course Road.',
+    'Aerocity Escort Service provides premier 5-star hotel escort service and VIP call girls in Delhi Aerocity. Verified Russian escorts, celebrity models, and 15-20 min outcalls to JW Marriott, Pullman, Andaz, Roseate House, and Novotel.',
   keywords: siteConfig.keywords,
-  applicationName: 'ALINA VIP',
-  authors: [{ name: 'ALINA VIP' }],
+  applicationName: 'Aerocity Escort Service',
+  authors: [{ name: 'Aerocity Escort Service' }],
   generator: 'Next.js',
   robots: {
     index: true,
@@ -53,10 +53,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     url: siteConfig.url,
-    siteName: 'ALINA VIP',
-    title: 'Escort Service in Gurgaon (Gurugram) | VIP Escorts Service ALINA VIP',
+    siteName: 'Aerocity Escort Service',
+    title: 'Aerocity Escort Service | VIP Call Girls & 5-Star Hotel Escorts New Delhi',
     description:
-      'ALINA VIP is the #1 escort service in Gurgaon (Gurugram). Book verified VIP call girls and elite escorts service with 20-30 min 5-star hotel outcall dispatch across DLF, Cyber City, and Golf Course Road.',
+      'Aerocity Escort Service provides premier 5-star hotel escort service and VIP call girls in Delhi Aerocity. Verified Russian escorts, celebrity models, and 15-20 min outcalls to JW Marriott, Pullman, Andaz, and Roseate House.',
     images: [
       {
         url: `${siteConfig.url}/og-image.jpg`,
