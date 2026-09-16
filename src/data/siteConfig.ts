@@ -3,52 +3,23 @@ export const siteConfig = {
   phone: '+91-9996265679',
   phoneDisplay: '+91 99962 65679',
   whatsapp: '919996265679',
-  email: 'contact@alinavip.in',
-  address: 'DLF Phase 3, Golf Course Road, Gurgaon, Haryana 122002, India',
-  url: 'https://alinavip.in',
-  domain: 'alinavip.in',
-  tagline: 'Escort Service in Gurgaon (Gurugram) | VIP Escorts Service',
-  description: 'ALINA VIP is the leading escort service in Gurgaon (Gurugram). Providing 100% verified VIP escorts service, high-profile call girls, and discreet 20-30 min 5-star hotel and residence outcalls across DLF, Cyber City, and Golf Course Road.',
+  email: 'contact@aerocityescortservice.site',
+  address: 'Aerocity, Indira Gandhi International Airport, New Delhi 110037 & DLF Phase 3, Gurgaon',
+  url: 'https://aerocityescortservice.site',
+  domain: 'aerocityescortservice.site',
+  tagline: 'Escort Service in Aerocity & Gurgaon | VIP Escorts Service',
+  description: 'Premier escort service in Aerocity New Delhi and Gurgaon. Providing 100% verified VIP escorts, Russian call girls, and discreet 20-30 min 5-star hotel outcalls across Aerocity hotels and Gurgaon.',
   keywords: [
+    'escort service in aerocity',
+    'aerocity escort service',
+    'call girls in aerocity',
+    'aerocity call girls',
     'escort service in gurgaon',
     'escorts service in gurgaon',
     'escort service in gurugram',
-    'escorts service in gurugram',
-    'escort service in gurugaon',
-    'escorts service in gurugaon',
-    'gurgaon escort service',
-    'gurugram escort service',
-    'vip escorts service in gurgaon',
-    'luxury escort service gurgaon',
-    'call girls in gurgaon',
-    'call girls in gurugram',
-    'call girls gurgaon',
-    'call girls gurugram',
-    'escorts in gurgaon',
-    'escorts in gurugram',
-    'escort agency gurgaon',
-    'escort agency in gurugram',
-    'hotel outcall escort service gurgaon',
-    'russian escort service in gurgaon',
-    'russian call girls in gurgaon',
-    'russian escorts in gurugram',
-    'vip call girls in gurgaon',
-    'vip call girls in gurugram',
-    'independent escorts in gurgaon',
-    'independent call girls gurgaon',
-    'model escorts in gurgaon',
-    'air hostess call girls in gurgaon',
-    'college call girls in gurgaon',
-    '5 star hotel escort service gurgaon',
-    'cyber city escort service',
-    'golf course road escort service',
-    'dlf gurgaon escort service',
-    'cash on delivery call girls gurgaon',
-    'verified call girls in gurgaon',
-    'genuine escort service in gurgaon',
-    'top escort service in gurgaon',
-    'gurgaon call girl service',
-    'escort service in delhi ncr',
+    'vip escort service in aerocity',
+    'russian escorts in aerocity',
+    '5 star hotel escorts aerocity',
   ],
   socialLinks: [
     { name: 'Instagram', url: 'https://instagram.com/alinavip', icon: 'Instagram' },
@@ -57,73 +28,28 @@ export const siteConfig = {
   ],
 };
 
+export function getAlternateLanguages(path: string = '') {
+  const cleanPath = path ? (path.startsWith('/') ? path : `/${path}`) : '';
+  return {
+    'en': `https://aerocityescortservice.site${cleanPath}`,
+  };
+}
+
 export const generalFaqs = [
   {
-    question: 'What makes ALINA VIP the leading escort service in Gurgaon (Gurugram)?',
-    answer: 'ALINA VIP is recognized as the top escort service in Gurgaon (Gurugram) because of our 100% genuine photo verification, zero upfront charges (Cash on Delivery), elite models (Russian call girls, high-profile models, independent escorts), and ironclad discretion. Whether in Gurgaon or Gurugram, our models arrive in discreet executive transport directly to your 5-star hotel suite or private residence within 20-30 minutes.',
+    question: 'What is ALINA VIP Aerocity?',
+    answer: 'ALINA VIP is a premier luxury escort service catering to elite business and leisure travelers in Aerocity New Delhi and Gurgaon. We provide verified companions for 5-star luxury hotels with absolute confidentiality.',
   },
   {
-    question: 'Is your escort service available across both Gurgaon and Gurugram?',
-    answer: 'Yes, absolutely. Gurgaon and Gurugram are the exact same city (officially renamed Gurugram in 2016, though clients and executives commonly search for Gurgaon, Gurugram, and Gurugaon). ALINA VIP covers all sectors and corridors of Gurgaon/Gurugram including DLF Phases 1 to 5, Cyber City, Cyber Hub, Golf Course Road, Golf Course Extension Road, Sohna Road, and Sector 29.',
+    question: 'How fast can an escort arrive at Aerocity luxury hotels?',
+    answer: 'Our average outcall dispatch time to premier Aerocity hotels (JW Marriott, Andaz, Pullman, Novotel, Roseate House, Aloft) is 20-30 minutes.',
   },
   {
-    question: 'How can I reserve a luxury companion in Gurgaon?',
-    answer: 'Reserving a companion with ALINA VIP is seamless, discreet, and fast. Reach out directly via voice call at +91-9996265679 or initiate an encrypted WhatsApp chat. Specify your preferred district, desired appointment duration, and companion style. Our private concierge confirms model availability within moments and coordinates swift 20-30 minute outcall arrival.',
+    question: 'Are all companion profiles authentic and verified?',
+    answer: 'Yes, every profile undergoes complete in-person verification with 100% authentic, untouched photographs. What you see is guaranteed to be who arrives.',
   },
   {
-    question: 'How does ALINA VIP verify its companions and photographs?',
-    answer: 'Every escort featured on our platform undergoes rigorous in-person validation. We cross-verify government identity documents, recent unretouched photographs, and personal grooming to ensure absolute profile fidelity. The companion who arrives at your suite is guaranteed to match the verified portfolio you selected.',
-  },
-  {
-    question: 'What confidentiality safeguards protect client identity?',
-    answer: 'Discretion is our foremost operating principle. We implement a rigorous zero-retention privacy protocol: client phone numbers, messages, and itinerary specifics are permanently purged post-booking. Our companions arrive discreetly in private executive transportation and maintain total confidentiality.',
-  },
-  {
-    question: 'Which sectors and districts in Gurgaon are serviced?',
-    answer: 'We dispatch across every prime hub in Gurgaon including DLF Phase 1, Phase 2, Phase 3, Phase 4, and Phase 5, Cyber City, Cyber Hub, Golf Course Road, Golf Course Extension Road, Sohna Road, MG Road, Sushant Lok, Nirvana Country, as well as Sectors 29, 43, 44, 49, 56, 57, and Aerocity Delhi.',
-  },
-  {
-    question: 'What are your operational booking hours?',
-    answer: 'Our booking concierge is operational 24 hours a day, 7 days a week, 365 days a year. Whether you require evening dinner company, an overnight engagement, or an impromptu late-night companion, our coordination team is on standby to assist.',
-  },
-  {
-    question: 'What companion categories can I select from?',
-    answer: 'Our portfolio features a distinguished selection of companions: Russian call girls, high-profile models, independent escorts, college companions, air hostess models, and elite celebrity escorts. Browse our categories page for comprehensive details and portfolio galleries.',
-  },
-  {
-    question: 'Are companions available for travel and weekend getaways?',
-    answer: 'Yes. Selected companions are available for domestic trips, outstation corporate retreats, and international holidays. Inquire with our desk regarding travel itineraries, advance scheduling, and comprehensive multi-day packages.',
-  },
-  {
-    question: 'What are the pricing rates for call girls and escort girls?',
-    answer: 'Our rates are competitive and commensurate with the elite tier of verified call girls and escort girls we represent. Rates depend on the category, meeting duration, and event type. Contact our private concierge at +91-9996265679 for transparent, all-inclusive rate guidance.',
-  },
-  {
-    question: 'What payment options do you support?',
-    answer: 'To ensure client comfort and confidence, we facilitate Cash on Delivery (COD) directly with your companion upon arrival, along with convenient digital alternatives discussed upon booking.',
-  },
-  {
-    question: 'Can I choose a specific companion from the gallery?',
-    answer: 'Absolutely. You are welcome to request your preferred companion directly from our verified gallery. We recommend booking in advance for peak weekend evenings to guarantee individual companion availability.',
-  },
-  {
-    question: 'What is the policy for rescheduling or cancellation?',
-    answer: 'We recognize executive schedules can shift unexpectedly. Please alert our booking team at least two hours prior to the scheduled meeting to reschedule or cancel without friction.',
-  },
-  {
-    question: 'How does hotel outcall dispatch operate for 5-star properties?',
-    answer: 'We regularly dispatch companions to luxury hotel properties including The Oberoi, The Leela Ambience, Trident Gurgaon, Grand Hyatt, and Taj City Centre. Simply share your room or suite details; your companion arrives elegantly dressed in smart luxury attire that blends seamlessly into 5-star hotel lounges.',
-  },
-  {
-    question: 'Is cash payment on delivery accepted in Gurgaon?',
-    answer: 'Yes, cash on delivery is fully supported upon your companion’s arrival. You have the opportunity to verify your companion in person before finalizing payments, ensuring absolute peace of mind.',
-  },
-  {
-    question: 'How does ALINA VIP prevent online escort fraud in Gurgaon?',
-    answer: 'We eliminate common escort scams by never charging deceptive advance registration or card swipe fees before meeting. All bookings are verified in real time, and our models are authentic, resident companions.',
-  },
-  {
-    question: 'Can companions attend high-profile corporate or business dinners?',
-    answer: 'Yes. Many of our models and high-profile companions possess university degrees, excellent conversational acumen, and refined etiquette, making them ideal partners for business dinners, cocktail receptions, and executive functions.',
+    question: 'How do I book an escort service in Aerocity?',
+    answer: 'Booking is simple and discreet. Message our 24/7 concierge via WhatsApp or call +91-9996265679 with your preferred hotel and timing.',
   },
 ];
