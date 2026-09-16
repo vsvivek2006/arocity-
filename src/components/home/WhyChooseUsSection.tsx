@@ -42,7 +42,7 @@ export default function WhyChooseUsSection() {
             Why Choose Us
           </span>
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
-            The Gold Standard in <span className="text-gradient-gold">Aerocity Companionship</span>
+            The Gold Standard in <span className="text-gradient-gold">Aerocity VIP Escort Services</span>
           </h2>
           <p className="text-charcoal-300 text-sm md:text-base leading-relaxed">
             Designed specifically for international travelers, business executives, and hotel guests who value discretion, beauty, and prompt professionalism.

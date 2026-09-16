@@ -13,7 +13,7 @@ export default function AboutSection() {
                 <Image
                   src="/images/categories/vip-escorts.webp"
                   alt="Elite Aerocity Escort Service VIP Model"
-                  title="Elite Aerocity Escort Service VIP Model - 5-Star Hotel Companionship"
+                  title="Elite Aerocity Escort Service VIP Model - 5-Star Hotel VIP Escorts"
                   fill
                   sizes="(max-width: 768px) 100vw, 40vw"
                   className="object-cover"
@@ -32,11 +32,11 @@ export default function AboutSection() {
               About Aerocity Escort Service
             </span>
             <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
-              Premier Luxury Companionship in <span className="text-gradient-gold">Delhi Aerocity</span>
+              Premier Luxury Escort Service in <span className="text-gradient-gold">Delhi Aerocity</span>
             </h2>
             <div className="space-y-4 text-charcoal-300 text-sm md:text-base leading-relaxed mb-8">
               <p>
-                Strategically located in the high-profile Hospitality District of Indira Gandhi International (IGI) Airport, <strong>Aerocity Escort Service</strong> offers an exclusive sanctuary of elegance, discretion, and world-class companionship for discerning business executives, luxury hotel guests, and international transit passengers.
+                Strategically located in the high-profile Hospitality District of Indira Gandhi International (IGI) Airport, <strong>Aerocity Escort Service</strong> offers an exclusive sanctuary of elegance, discretion, and world-class VIP escort services for discerning business executives, luxury hotel guests, and international transit passengers.
               </p>
               <p>
                 Whether you are staying at <em>JW Marriott, Andaz Delhi, Pullman, Roseate House, Novotel</em>, or on an extended layover at IGI Airport, our curated roster of sophisticated <Link href="/category/russian-call-girls" className="text-gold-400 hover:underline">Russian call girls</Link>, elite fashion models, and educated <Link href="/category/vip-call-girls" className="text-gold-400 hover:underline">VIP escorts</Link> guarantees an unforgettable, private experience.

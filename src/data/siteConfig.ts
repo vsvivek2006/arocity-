@@ -41,7 +41,7 @@ export function getAlternateLanguages(path: string = '') {
 export const generalFaqs = [
   {
     question: 'What is Aerocity Escort Service?',
-    answer: 'Aerocity Escort Service by ALINA VIP is a premier luxury companionship agency based in the Hospitality District of Aerocity, New Delhi. We cater to corporate executives, VIP transit travelers, and luxury hotel guests with verified companions.',
+    answer: 'Aerocity Escort Service by ALINA VIP is a premier luxury escort service agency based in the Hospitality District of Aerocity, New Delhi. We cater to corporate executives, VIP transit travelers, and luxury hotel guests with verified companions.',
   },
   {
     question: 'How fast can an escort arrive at Aerocity 5-star hotels?',
@@ -49,11 +49,11 @@ export const generalFaqs = [
   },
   {
     question: 'Can I book an escort during a flight layover at Delhi Airport (IGI)?',
-    answer: 'Yes! Aerocity is directly connected to IGI Airport Terminals 1, 2, and 3 via the Airport Express Metro and shuttle services. We specialize in swift, discreet companionship for travelers on international and domestic layovers.',
+    answer: 'Yes! Aerocity is directly connected to IGI Airport Terminals 1, 2, and 3 via the Airport Express Metro and shuttle services. We specialize in swift, discreet escort service for travelers on international and domestic layovers.',
   },
   {
     question: 'Do you offer Cash on Delivery (COD) in Aerocity?',
-    answer: 'Yes. We operate with 100% transparency: you can meet and verify your companion in the comfort and privacy of your hotel room before settling the companionship fee in cash.',
+    answer: 'Yes. We operate with 100% transparency: you can meet and verify your companion in the comfort and privacy of your hotel room before settling the service fee in cash.',
   },
   {
     question: 'Are all companion photos 100% genuine and verified?',

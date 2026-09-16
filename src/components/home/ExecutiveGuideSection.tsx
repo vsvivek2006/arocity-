@@ -73,7 +73,7 @@ export default function ExecutiveGuideSection() {
                 </h3>
               </div>
               <p className="text-xs md:text-sm text-charcoal-300 leading-relaxed">
-                We strictly reject deceptive upfront deposit scams common across unregistered Delhi escorts. You verify your selected companion in person before completing the companionship fee.
+                We strictly reject deceptive upfront deposit scams common across unregistered Delhi escorts. You verify your selected companion in person before completing the service fee.
               </p>
             </div>
           </div>
