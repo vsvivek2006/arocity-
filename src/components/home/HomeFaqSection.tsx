@@ -38,7 +38,7 @@ export default function HomeFaqSection() {
         <div className="text-center mt-10">
           <Link
             href="/faq"
-            className="btn-outline-gold-gold inline-flex items-center gap-2"
+            className="btn-outline-gold inline-flex items-center gap-2"
           >
             View All FAQs <ArrowRight size={16} />
           </Link>

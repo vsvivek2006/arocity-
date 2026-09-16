@@ -49,7 +49,7 @@ export default function HeroSection() {
             </Link>
             <a
               href={`tel:${siteConfig.phone}`}
-              className="btn-outline-gold-gold"
+              className="btn-outline-gold inline-flex items-center justify-center gap-2 px-8 py-3.5 whitespace-nowrap min-w-[200px]"
             >
               <Phone size={16} className="text-gold-400" />
               <span>{siteConfig.phoneDisplay}</span>

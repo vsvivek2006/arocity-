@@ -36,7 +36,7 @@ export default function AboutSection() {
             </div>
 
             <div className="flex flex-wrap items-center gap-4 mt-8">
-              <Link href="/about" className="btn-outline-gold-gold">
+              <Link href="/about" className="btn-outline-gold">
                 Learn More <ArrowRight size={16} />
               </Link>
               <a
