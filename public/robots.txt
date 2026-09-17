@@ -1,4 +1,4 @@
-User-Agent: *
+﻿User-Agent: *
 Allow: /
 Disallow: /api/
 Crawl-delay: 1
@@ -9,3 +9,4 @@ Sitemap: https://aerocityescortservice.site/sitemap-locations.xml
 Sitemap: https://aerocityescortservice.site/sitemap-categories.xml
 Sitemap: https://aerocityescortservice.site/sitemap-blogs.xml
 Sitemap: https://aerocityescortservice.site/sitemap-pages.xml
+Sitemap: https://aerocityescortservice.site/sitemap-escorts.xml
