@@ -1,5 +1,17 @@
 export const siteConfig = {
   name: 'Aerocity Escort Service',
+  city: 'Aerocity, New Delhi',
+  structuredAddress: {
+      "streetAddress": "Asset Area 4, Hospitality District, IGI Airport",
+      "addressLocality": "Aerocity",
+      "addressRegion": "New Delhi",
+      "postalCode": "110037",
+      "addressCountry": "IN"
+  },
+  geo: {
+      "latitude": 28.5535,
+      "longitude": 77.1213
+  },
   phone: '+91-9996265679',
   phoneDisplay: '+91 99962 65679',
   whatsapp: '919996265679',
